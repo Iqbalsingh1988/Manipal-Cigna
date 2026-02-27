@@ -1,0 +1,1648 @@
+ .faq_img {
+    left: -4.21875vw;
+ 
+}
+ 
+ .mobile_h{
+            display: none;
+        }
+
+.swiper-nav-btnss .prev-btn-addon svg, .swiper-nav-btnss .next-btn-addon svg{
+    width: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+.discount_purchase .left {
+    width: 45%;
+}
+.discount_purchase .right {
+    width: 55%;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input {
+    width: 30.04167vw;
+    margin-bottom: 12px;
+    height: 3.125vw;
+}
+.health_insurance_sec.serva_banner_sec form .health_input input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+}
+@media screen and (max-width: 1366px) {
+.discount_purchase .left {
+    width: 45%;
+}
+.discount_purchase .right {
+    width: 55%;
+}
+.discount_purchase .right .fs-14,
+.discount_purchase .left .fs-20 {
+    font-size: 13px;
+}
+.breadcum_sec ul li a {
+    color: #57585A;
+}
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1366px) {
+   .breadcum_sec ul li a {
+    font-size: 15px;
+} 
+.health_insurance_sec.serva_banner_sec .health_insurance_content p {
+    font-size: 16px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans {
+    width: 46%;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input span {
+    font-size: 16px;
+}
+.featured_insurance_sec .featured_insurance_col_content ul li {
+    font-size: 16px;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_col_content {
+    padding: 2.08333vw 1.66667vw 2.60417vw 1.66667vw;
+}
+.serva_inner_menu .serva_nav li a {
+    font-size: 16px;
+}
+.serva_overview_setion .common_heading {
+    max-width: 70.32292vw;
+}
+.serva_overview_setion .common_heading .fs-20 {
+    font-size: 18px;
+}
+    .serva_overview_setion .serva_overview_inner .serva_overview_col ul li .so_content .fs-20
+ {
+        font-size: 16px;
+    }
+.plan_comparsion_setion .plan_comparsion_inner table tr td span {
+    font-size: 16px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table tr td {
+    font-size: 16px;
+}
+.serva_benefit_section .serva_benefit_inner .serva_benefit_col .fs-20 {
+    font-size: 16px;
+}
+.policy_details_right .policy_details_table tr td span {
+    font-size: 16px;
+}
+.policy_details_right .policy_details_table table tr td {
+    font-size: 16px;
+}
+.addons_section .swiper-slide-active p {
+    font-size: 16px;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_col .fs-20 {
+    font-size: 16px;
+}
+.customer_testimonail_col .para_content {
+    font-size: 16px;
+}
+.customer_testimonail_first_row .customer_testimonail_first_slider .splide__slide {
+    margin-bottom: 25px;
+}
+.product-slider .is-active .serva_content p {
+    font-size: 16px;
+}
+.faq-section ul.accordion-list li .answer p {
+    font-size: 16px;
+}
+.get_Sidebar_btn a {
+    font-size: 16px;
+}
+.get_Sidebar_btn {
+    right: -50px;
+    width: 235px;
+    height: 50px;
+}
+}
+
+@media screen and (max-width:1280px) {
+.customer_testimonail_first_row .customer_testimonail_first_slider .splide__slide {
+    margin-bottom: 50px;
+}
+
+    .faq-section ul.accordion-list li.active .answer {
+        font-size: 14px;
+
+}
+
+}
+
+@media screen and (max-width:1199px) {
+    .serva_benefit_section .serva_benefit_inner .serva_benefit_slider {
+      grid-template-columns: repeat(3, 1fr);
+  
+}
+.serva_benefit_section .serva_benefit_inner .serva_benefit_col .serva_benefit_heading {
+
+    margin-bottom: 12px;
+
+}
+.serva_benefit_section .serva_benefit_inner .serva_benefit_col .serva_benefit_img {
+    width: 6.375vw;
+}
+.customer_testimonail_first_row .customer_testimonail_first_slider .splide__slide {
+    margin-bottom: 200px;
+}
+.serva_benefit_section .serva_benefit_inner .serva_benefit_inner .serva_benefit_col .serva_benefit_heading {
+    margin-top: 1.77083vw;
+     height: 4.90625vw;
+}
+.serva_banner_sec .health_insurance_journey form .health_input{
+   width: 36.04167vw;
+            margin-bottom: 15px;
+     height: 4.125vw;
+}
+.serva_banner_sec .health_input.flex.fs-18 {
+    line-height: normal;
+        align-items: self-start;
+}
+.serva_banner_sec .serva_banner_sec .health_insurance_journey form .health_input.fs-18
+ {
+        align-items: self-start;
+        width: 100%;
+            margin-top: 20px;
+    margin-bottom: 25px;
+    }
+.download_btn a {
+     font-size: 16px;
+}
+.policy_details_box li a {
+    padding: 1.94167vw 1.82292vw;
+    font-size: 1.44583vw;
+     
+}
+.serva_overview_setion .serva_overview_inner {
+    display: grid;
+   margin-top: 4vw;
+}
+.component {
+    width: 1.85417vw;
+}
+.policy_details_img {
+    left: -1.21875vw;
+    bottom: -82%;
+    bottom: -66%;
+    }
+    .serva_overview_setion .serva_overview_inner .serva_overview_col ul li .so_tick_arrow {
+    width: 2.30208vw;
+}
+.serva_overview_setion .serva_overview_inner .serva_overview_col ul li {
+     gap: 1.83333vw;
+    padding-bottom: 2.86458vw;
+}
+.plan_comparsion_discount .left {
+    padding: 5px 8px;
+    
+}
+.plan_comparsion_discount .left::before {
+     right: -2px;
+    top: 38%;
+     
+    
+}
+.serva_content .fs-22 {
+     margin-top: 1.32083vw;
+    margin-bottom: 1.32083vw;
+}
+.serva_content .fs-22 {
+     font-size: 1.94583vw;
+}
+.faq-section ul.accordion-list li {
+    border-radius: 10px;
+     padding: 2.094vw 2.848vw;
+}
+.faq-section ul.accordion-list li h3:after {
+    width: 2.97917vw;
+    height: 2.97917vw;
+    top: -18%;
+}
+.addons_content p {
+     margin-top: 1.52083vw;
+}
+.product-slider .splide__slide .serva_img {
+     transform: scale(0.5);
+     -webkit-transform: scale(0.5);
+     -moz-transform: scale(0.5);
+     -ms-transform: scale(0.5);
+     -o-transform: scale(0.5);
+}
+.product-slider .splide__slide.is-active .serva_img {
+     transform: scale(0.8);
+     -webkit-transform: scale(0.8);
+     -moz-transform: scale(0.8);
+     -ms-transform: scale(0.8);
+     -o-transform: scale(0.8);
+}
+    .plan_comparsion_discount .left {
+        padding: 5px 5px;
+    }
+    .plan_comparsion_discount .left::before{
+   border-top: 1.38542vw solid transparent;
+    border-right: 1.38125vw solid #004778;
+    border-bottom: 1.38542vw solid transparent;
+    }
+    .swiper-nav-btnss .prev-btn-addon {
+    left: 18%;
+}
+.swiper-nav-btnss .next-btn-addon {
+    right: 18%;
+}
+.breadcum_sec ul {
+    justify-content: start;
+    align-items: start;
+    gap: 0px
+}  
+.breadcum_sec ul li::before {
+  width: 10px;
+        height: 10px;
+        right: -5px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner {
+    align-items: start;
+    justify-content: start;
+}
+.health_insurance_sec.serva_banner_sec .tick_icon {
+    width: 25px;
+}
+.health_insurance_sec.serva_banner_sec .tick_icon img {
+    width: 100%;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans p {
+    width: 205px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans {
+    align-items: start;
+}
+.discount_purchase .left::before {
+    border-top: 28px solid transparent;
+    border-right: 12px solid var(--theme-white);
+    border-bottom: 30px solid transparent;
+}
+
+.health_insurance_sec .health_insurance_journey form .health_input.fs-18 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input {
+    width: 35vw;
+    margin-bottom: 12px;
+    height: 42px;
+}
+.discount_purchase {
+    margin-top: 22px;
+}
+.download_btn {
+    margin-top: 10px;
+    text-align: left;
+    
+}
+.uin_img {
+    width: 18.07292vw;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_col_content {
+        padding: 20px 15px;
+    }
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_issured .fs-18 {
+    font-size: 14px;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_issured .fs-36 {
+    font-size: 16px;
+}
+.featured_insurance_sec .fatured_insurance_logo_rate .featured_insurance_rate {
+    padding-left: 20px;
+}
+.featured_insurance_sec .fatured_insurance_logo_rate .featured_insurance_rate .fs-28 {
+    font-size: 16px;
+}
+.featured_insurance_sec .fatured_insurance_logo_rate .featured_insurance_rate::before {
+   display: none;
+}
+.serva_featured_insurance_sec .swiper-slide.active::after {
+    bottom: -24px;
+}
+.featured_insurance_issured {
+    padding-left: 10px;
+}
+.featured_insurance_sec .fatured_insurance_logo_rate .featured_insurance_rate .fs-28 span {
+    font-size: 15px;
+}
+.featured_insurance_sec .featured_insurance_col_content ul li:first-child {
+    width: 7%;
+}
+.featured_insurance_sec .featured_insurance_col_content ul li {
+    width: 93%;
+    font-size: 15px;
+}
+.serva_overview_setion .serva_overview_inner .serva_overview_col ul li .so_content .fs-20 {
+    font-size: 15px;
+}
+.serva_overview_setion .serva_overview_inner .serva_overview_col ul li .so_tick_arrow {
+    width: 22px;
+}
+.policy_details_right .policy_details_table table {
+    font-size: 15px;
+}
+.policy_details_right .policy_details_table tr td ul li::marker {
+    font-size: 18px;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_col .fs-20 > * {
+    font-size: 14px;
+}
+.plan_comparsion_discount .left::before {
+    display: none;
+}
+.plan_comparsion_setion .featured_insurance_rate {
+    width: 100%;
+}
+.plan_comparsion_setion  .sarvah_logo {
+    width: 100%;
+}
+.plan_comparsion_setion .plan_comparsion_inner table tr td ul {
+    gap: 15px;
+}
+.common_heading .serva_sub_heading {
+    font-size: 20px;
+}
+.plan_comparsion_discount .left {
+    width: 100%;
+}
+.policy_details_img {
+    bottom: -82%;
+    min-width: 23vw;
+}
+.policy_details_right .policy_details_table table tr th .fs-22 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.policy_details_right .policy_details_table tr td ul {
+    gap: 12px;
+}
+.policy_details_section {
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+}
+.swiper-nav-btnss .next-btn-addon {
+    right: 26%;
+    width: 20px;
+}
+.swiper-nav-btnss .prev-btn-addon {
+    left: 22%;
+    width: 48px;
+}
+.swiper-nav-btnss .next-btn-addon {
+    right: 22%;
+    width: 48px;
+}
+.plan_comparsion_setion {
+    padding-top: 6vw;
+}
+.serva_benefit_section {
+    padding-top: 6vw;
+
+}
+.addons_section {
+    padding-top: 6vw;
+}
+.sub_btn_details {
+  
+    margin-top: 20px;
+}
+.addons_section {
+    padding-bottom: 6vw;
+}
+.serva_eligibility_section .serva_eligibility_inner {
+    margin-top: 32px;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_content {
+    column-gap: 8vw;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_content .serva_elegibility_col {
+    width: 25vw;
+}
+.customer_testimonial_sec .customer_testimonial_inner .customer_testimonial_right .common_btn {
+    bottom: -8vw;
+}
+.customer_testimonail_first_row .customer_testimonail_first_slider .splide__slide {
+    height: calc(100%) !important;
+}
+.customer_testimonail_first_row .customer_testimonail_first_slider .splide__slide {
+    margin-bottom: 10px;
+}
+.breadcum_sec ul li a {
+    font-size: 12px;
+}
+/* .featured_insurance_sec .featured_insurance_col_content ul li:first-child {
+    width: 5%;
+}
+.featured_insurance_sec .featured_insurance_col_content ul li {
+    width: 95%;
+} */
+
+.featured_insurance_sec.serva_featured_sec .fatured_insurance_logo_rate .featured_insurance_logo {
+    width: 48%;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_issured .fs-20 {
+    font-size: 12px;
+}
+.customer_testimonial_sec  .customer_testimonail_col .star ul li {
+    width: 2vw;
+    height: 2vw;
+    margin-bottom: 8px;
+}
+.faq_list_box li a {
+    font-size: 14px;
+}
+.get_Sidebar_btn a {
+    font-size: 16px;
+}
+.get_Sidebar_btn {
+    padding: 14px;
+}
+}
+
+
+ 
+
+
+@media screen and (max-width: 1023px) {
+.serva_featured_insurance_sec .serve_featured_insurance_slider {
+    padding-bottom: 10.02083vw;
+}
+    .plan_comparsion_discount .left::before {
+        right: -2px;
+        top: 30%;
+        border-top: 1.88542vw solid transparent;
+        border-right: 1.78125vw solid #004778;
+        border-bottom: 1.88542vw solid transparent;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .serva_banner_sec .health_insurance_journey form .health_input {
+         width: 100%;
+        margin-bottom: 15px;
+        height: 44px;
+    }
+    .serva_banner_sec.serva_banner_sec form .health_input input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+.health_insurance_sec .health_insurance_journey form .health_input.fs-18 {
+    gap: 1.52083vw;
+}
+.serva_banner_sec .health_insurance_journey form .health_input.fs-18 {
+     margin-top: 3.04167vw;
+    margin-bottom: 3.5625vw;
+    
+}
+.customer_testimonail_first_row .customer_testimonail_first_slider .splide__slide {
+        margin-bottom: inherit;
+    }
+.discount_purchase .right {
+      padding-left: 3.52083vw;
+}
+.discount_purchase {
+    margin-top: 3.82292vw;
+}
+.serva_inner_menu .serva_nav li a {
+    display: block;
+    padding: 2.82292vw 3.08333vw;
+}
+ 
+    .serva_inner_menu .serva_nav {
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        -webkit-overflow-scrolling: touch;
+    }
+    .plan_comparsion_setion .plan_comparsion_inner{
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        -webkit-overflow-scrolling: touch;
+    }
+        .plan_comparsion_discount .left
+ {
+        padding: 5px 10px;
+        width: 100%;
+    }
+        .plan_comparsion_discount .left {
+        padding: 10px 27px;
+        width: 100%;
+    }
+        .plan_comparsion_discount .left::before {
+        right: -2px;
+        top: 22%;
+        }
+        .policy_details_section .policy_details_inner {
+     flex-direction: column;
+}
+.policy_details_img{
+    display: none;
+}
+.policy_details_box ul, .faq_list_box ul  {
+    display: flex;
+    flex-wrap: nowrap;
+     justify-content: center;
+}
+ 
+.key_benefit_sec .key_benefit_inner::before,
+.key_benefit_sec .key_benefit_inner::after {
+    width: 6.04167vw;
+}
+
+.policy_details_left{
+    width: 100%;
+}
+    
+    .policy_details_box ul, .faq_list_box ul {
+         justify-content: center;
+        background: #F6F6F6;
+        width: fit-content;
+        margin: 0 auto;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .policy_details_box li a, .faq_list_box ul li a{
+        padding: 15px 28px;
+         font-size: 18px;
+    }
+      .faq_list_box ul li a{
+        background: #FFF;
+      }
+    .policy_details_right {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .faq_left, .faq_right{
+        width: 100%;
+    }
+    .faq_right{
+        margin-top: 30px;
+    }
+    .policy_details_right .policy_details_table table tr th .fs-22{
+        font-size: 18px;
+        text-align: center;
+    }
+    .policy_details_right .policy_details_table tr td ul li::marker {
+    color: red;
+    font-size: 18px;
+}
+.faq-section .faq_row {
+    flex-direction: column;
+}
+.faq_img{
+    display: none;
+}
+.policy_details_right .policy_right_bottom{
+    display: none;
+}
+.serva_elegibility_right{
+    display: none;
+}
+.serva_eligibility_section .serva_elegibility_left{
+    width: 100%;
+}
+.serva_eligibility_section .serva_eligibility_inner {
+    width: 100%;
+    position: relative;
+    border-radius: 1.04167vw;
+    background: #FFF;
+    box-shadow: 0px 4px 1.04167vw 0px rgba(0, 0, 0, 0.15), 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: 12fr 0fr;
+    padding: 36px 30px;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_content .serva_elegibility_col {
+    width: 100%;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_col .icon
+ {
+    width: 10.16667vw;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_col .fs-24{
+     padding-top: 16px;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_content .serva_elegibility_col:nth-child(2) .fs-20{
+    width: 100%;
+}
+.serva_eligibility_section .serva_elegibility_left::before{
+    display: none;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_content {
+        border-bottom: solid 1px rgb(87 88 90 / 30%);
+    }
+    .serva_eligibility_section .serva_elegibility_left .serva_elegibility_content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .serva_eligibility_section .serva_elegibility_left .serva_elegibility_content:last-child{
+        border: none;
+    }
+    
+     
+    .product-slider .splide__slide.is-active .serva_img, .product-slider .splide__slide.is-active .serva_img img {
+        transform: inherit !important;
+    }
+    .product-slider .splide__slide .serva_img{
+         /* transform: inherit !important; */
+         opacity: 1;
+}
+    .product-slider .serva_img {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .product-slider .dot_line .dot_box {
+     height: 2.92708vw;
+    width: 2.92708vw;
+    }
+    .product-slider .is-active .serva_content {
+     padding-top: 30px;
+}
+.serva_content .fs-22{
+    margin: 18px 0px;
+    font-size: 20px;
+}
+.serva_content p{
+    font-size: 18px;
+}
+.faq_list_box {
+     background: #fafafa;
+    box-shadow:  inherit;
+}
+.faq-section ul.accordion-list {
+   flex-direction: column;
+    gap: 3.25vw 24.96px;
+}
+.faq-section ul.accordion-list li .answer{
+    margin-top: 17px;
+}
+.faq-section ul.accordion-list li h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.faq-section ul.accordion-list li .answer p{
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+}
+    .faq-section ul.accordion-list li h3:after {
+        width: 3.97917vw;
+        height: 3.97917vw;
+    }
+    .faq-section ul.accordion-list li{
+        padding: 22px 20px;
+    }
+    .faq-section {
+    padding-bottom: 12.708vw;
+    }
+    .faq_common_btn {
+    text-align: center;
+    margin-top: 6.854vw;
+}
+.plan_comparsion_setion .plan_comparsion_inner{
+    margin-top: 5.125vw;
+}
+.policy_details_box{
+    background: transparent;
+    box-shadow: inherit;
+}
+.serva_benefit_section .serva_benefit_inner .serva_benefit_slider {
+    align-items: stretch;
+    gap: 2.14583vw;
+}
+    .addons_section .swiper-slide-active {
+        transform: scale(0.8);
+    }
+    .addons_content h3{
+        font-size: 25px;
+    }
+    .addons_content p {
+    font-size: 18px;
+}
+.sub_btn_details{
+    padding: 15px 20px;
+    font-size: 16px;
+}
+.swiper-nav-btnss .prev-btn-addon{
+    left: 0px;
+}
+.swiper-nav-btnss .next-btn-addon{
+    right: 0px;
+}
+    .addons_section .swiper-slide {
+        padding: 40px;
+    }
+    .addons_content p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input {
+    width: 52%;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey {
+    padding-top: 25px;
+}
+.serva_overview_setion .common_heading {
+    max-width: 100%;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th:first-child .fs-16 {
+    color: #FFF;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 300px;
+    white-space: normal;
+}
+.swiper-nav-btnss .prev-btn-addon {
+    left: 40px;
+}
+.swiper-nav-btnss .next-btn-addon {
+        right: 92px;
+    }
+.swiper-nav-btnss {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.addons_section .swiper-slide-active p {
+    font-size: 22px;
+            margin-top: 25px;
+        margin-bottom: 30px;
+}
+.addons_content .fs-28 {
+    font-size: 28px;
+}
+.addons_content {
+    margin-top: 25px;
+}
+.addons_section .swiper-slide {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.sub_btn_details {
+    padding: 20px 40px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.addons_section .swiper-slide {
+    padding: 50px 40px;
+}
+.serva_eligibility_section {
+    width: 100%;
+    position: relative;
+    padding-top: 6.6vw;
+    padding-bottom: 7.20833vw;
+}
+.product-slider .splide__slide .serva_img {
+    transform: scale(0.6);
+}
+.serva_content .fs-22 {
+    margin: 18px 35px;
+    font-size: 20px;
+}
+.faq-section {
+    padding-top: 8vw;
+}
+.faq_row {
+    margin-top: 45px;
+}
+.policy_details_box li a, .faq_list_box ul li a {
+    padding: 15px 45px;
+}
+.faq_right {
+    margin-top: 40px;
+}
+.faq-section ul.accordion-list li .answer p {
+    line-height: 1.5;
+}
+.faq-section {
+    padding-bottom: 10.708vw;
+}
+.addons_section {
+    padding-bottom: 2vw;
+}
+.common_heading .serva_sub_heading {
+        margin-bottom: 10px;
+    }
+.breadcum_sec {
+    margin-top: 15px;
+}
+.health_insurance_right .health_insurance_img {
+    width: 80%;
+    float: right;
+}
+.download_btn {
+    display: none;
+}
+.uin_img {
+    width: 25.07292vw;
+}
+.plan_comparsion_setion  .sarvah_logo {
+    width: 80%;
+}
+    .serva_benefit_section .serva_benefit_inner .serva_benefit_col .serva_benefit_heading {
+        margin-bottom: 20px;
+    }
+
+.featured_insurance_sec .swiper-pagination {
+    bottom: 0;
+    width: 15.625vw;
+    margin: auto;
+    background: #EEE;
+    border-radius: 1.04167vw;
+    padding: 0px;
+    overflow: hidden;
+    height: 7px;
+    display: -webkit-box; 
+    display: -ms-flexbox;     
+    display: -webkit-flex;  
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+    z-index: 8;
+}
+.featured_insurance_sec .splide__pagination li {
+    width: 5.20833vw;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1.04167vw;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+}
+.featured_insurance_sec .swiper-pagination-bullet {
+    background: transparent;
+    width: 100%;
+}
+.featured_insurance_sec .swiper-pagination-bullet-active {
+    background: var(--theme-dots-bg);
+    height: 0.52083vw;
+    border-radius: 1.04167vw;
+    -webkit-border-radius: 1.04167vw;
+    -moz-border-radius: 1.04167vw;
+    -ms-border-radius: 1.04167vw;
+    -o-border-radius: 1.04167vw;
+}
+    .serva_banner_sec.serva_banner_sec form .health_input input[type="checkbox"] {
+        width: 18px !important;
+        height: 18px !important;
+    }
+.addons-slider {
+    margin-top: 0px;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_col .fs-20 > * {
+    font-size: 16px;
+}
+.customer_testimonial_sec.serva_cstomer_testimonial {
+    padding-bottom: 2vw;
+}
+    .product-slider .splide__slide .serva_img {
+        transform: scale(0.6);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 991px) {
+.health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input {
+    width: 100%;
+    height: 50px;
+}
+.swiper-nav-btnss .prev-btn-addon, .swiper-nav-btnss .next-btn-addon {
+     width: 62px;
+}
+.swiper-nav-btnss .next-btn-addon {
+    right: 12px;
+}
+    .swiper-nav-btnss .prev-btn-addon {
+        left: 12px;
+    }
+    .addons_section .swiper-slide-active {
+        transform: scale(0.9);
+    }
+    .customer_testimonial_sec .customer_testimonial_left .splide__pagination {
+        width: 49vw;
+}
+.serva_inner_menu .serva_nav::-webkit-scrollbar {
+    height: 6px;
+}
+
+.serva_inner_menu .serva_nav::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.serva_inner_menu .serva_nav::-webkit-scrollbar-thumb {
+    background: #004778;
+    border-radius: 10px;
+}
+
+.plan_comparsion_setion .plan_comparsion_inner::-webkit-scrollbar {
+    height: 6px;
+}
+
+.plan_comparsion_setion .plan_comparsion_inner::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.plan_comparsion_setion .plan_comparsion_inner::-webkit-scrollbar-thumb {
+    background: #004778;
+    border-radius: 10px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table tr td ul li::marker {
+    font-size: 2.35417vw;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+.uin_img {
+    width: 35%;
+}
+.download_btn {
+    margin-top: 12px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_content {
+    padding-top: 10px;
+    font-size: 18px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans p {
+    font-size: 18px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input {
+    width: 100%;
+    height: 50px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.discount_purchase .right .fs-14, .discount_purchase .left .fs-20 {
+    font-size: 16px;
+}
+.discount_purchase .left::before {
+    display: none;
+}
+.discount_purchase .left {
+    padding: 10px 0px;
+}
+.addons_section {
+    padding-top: 5vw;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+.serva_benefit_section .serva_benefit_inner .serva_benefit_col .serva_benefit_heading {
+        margin-top: 1.77083vw;
+        height: auto;
+    }
+        .serva_benefit_section .serva_benefit_inner .serva_benefit_col .serva_benefit_img {
+        width: 72px;
+    }
+    .serva_benefit_section .serva_benefit_inner .serva_benefit_col{
+        padding: 30px 26px;
+        border-radius: 20px;
+    }
+    .serva_benefit_section .serva_benefit_inner .serva_benefit_col .serva_benefit_heading .fs-24{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 18px;
+    }
+    .serva_overview_setion .serva_overview_inner{
+        grid-template-columns: 1fr;
+    }
+    .serva_overview_setion .serva_overview_inner .serva_overview_col ul li .so_content{
+        width: 100%;
+    }
+    .serva_overview_center{
+        order: 1;
+    }
+    .serva_overview_col{
+         order: 2;
+    }
+        .serva_inner_menu .serva_nav li a {
+        display: block;
+        padding: 5.82292vw 4.08333vw;
+        color: rgb(0 0 0 / 50%);
+    }
+    .serva_overview_setion .serva_overview_inner .serva_overview_center .so_center_img
+ {
+    width: 100%;
+    margin: auto;
+}
+.serva_overview_setion .serva_overview_inner .serva_overview_col ul li .so_tick_arrow{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.serva_overview_setion {
+    padding-bottom: 47px;
+}
+.plan_comparsion_setion .serva_sub_heading.fs-32{
+    font-size: 20px;
+}
+.plan_comparsion_setion .plan_comparsion_inner{
+    margin-top: 28px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th {
+    padding: 26px 20px;
+     
+}
+    .plan_comparsion_discount .left::before {
+        right: -2px;
+                top: 14%;
+        border-top: 3.88542vw solid transparent;
+        border-right: 3.78125vw solid #004778;
+        border-bottom: 3.88542vw solid transparent;
+    }
+    .plan_comparsion_setion .plan_comparsion_inner table th h5 {
+    font-size: 12px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th .fs-48{
+    font-size: 24px;
+}
+.plan_comparsion_discount .left .fs-16{
+    font-size: 10px;
+}
+.plan_comparsion_setion .featured_insurance_rate .fs-18{
+    font-size: 18px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th .fs-32{
+    font-size: 18px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table tr td span{
+    font-size: 14px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table tr td ul li::marker {
+     font-size: 12px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table tr td{
+    padding: 16px;
+}
+.component{
+    width: 20px;
+}
+.tooltip{
+    position: absolute;
+    bottom: 100%;
+    left: -82px;
+    transform: translateX(-8%);
+    margin-bottom: 40px;
+    background-color: #333;
+    padding: 25px;
+    font-size: 14px;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none;
+    background: #FFF;
+    width: 363px;
+ }
+
+
+
+
+        
+            .mobile_h{
+            display: block;
+        }
+        .dextop_h{
+             display: none;
+        }
+
+        
+
+.health_insurance_sec.serva_banner_sec {
+    padding-top: 25px;
+}
+.breadcum_sec {
+    display: none;
+}   
+.d-banner {
+    display: none;
+} 
+.m-banner {
+    display: block;
+} 
+.download_btn a {
+    display: none;
+}
+.uin_img {
+    width: 38vw;
+    text-align: left;
+    margin-top: 10px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_right {
+    width: 100%;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_content {
+    padding-top: 1.52083vw;
+    font-size: 16px;
+    line-height: normal;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans {
+    column-gap: 15px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans .tick_icon {
+    width: 40px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans > * {
+    line-height: normal;
+    width: 270px;
+}
+.discount_purchase {
+    display: none;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey {
+    padding-top: 32px;
+}
+.health_input span {
+    font-size: 12px;
+}
+.serva_banner_sec .health_insurance_journey form .health_input.fs-18 {
+    align-items: center;
+            margin-top: 20px;
+        margin-bottom: 22px;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_inner {
+    margin-top: 30px;
+}
+
+    .serva_featured_insurance_sec.serva_featured_insurance_sec .serve_featured_insurance_slider {
+        padding-bottom: 10.02083vw;
+        overflow: visible;
+    }
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_inner .featured_insurance_col {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .swiper-pagination {
+    display: none;
+}
+.serva_featured_insurance_sec .serve_featured_insurance_slider .swiper-slide::before {
+        height: 20px;
+        border-radius: 0px 0px 20px 20px;
+        -webkit-border-radius: 0px 0px 20px 20px;
+        -moz-border-radius: 0px 0px 20px 20px;
+        -ms-border-radius: 0px 0px 20px 20px;
+        -o-border-radius: 0px 0px 20px 20px;
+}
+.serva_featured_insurance_sec .serve_featured_insurance_slider .swiper-slide.active::before {
+    bottom: -12px;
+}
+.serva_featured_insurance_sec .swiper-slide.active::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #F36222;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -28px;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_col_content {
+    padding: 20px;
+}
+.featured_insurance_sec.serva_featured_insurance_sec {
+    overflow: hidden;
+}
+.featured_insurance_sec .featured_insurance_col_content ul li:first-child {
+    width: 8%;
+}
+    .serva_inner_menu .serva_nav li a {
+        font-size: 12px;
+    }
+.common_heading .serva_sub_heading {
+    font-size: 20px;
+}
+
+.serva_overview_setion .common_heading {
+    max-width: 100%;
+}
+.serva_overview_setion .common_heading .para_content {
+    margin-top: 8px;
+}
+.plan_comparsion_setion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th:first-child .fs-20 {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th {
+    padding: 20px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th:first-child {
+    width: auto;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th {
+    width: 25%;
+        padding: 20px
+}
+.plan_comparsion_setion  .sarvah_logo {
+    width: 40.20833vw;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th:first-child .fs-16 {
+    white-space: normal;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th:first-child {
+    padding: 20px;
+}
+    .plan_comparsion_setion .plan_comparsion_inner table th h5 {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.77) !important;
+    }
+.plan_comparsion_setion .plan_comparsion_inner table th .plan_comparsion_discount {
+    width: 100%;
+    max-width: 140px;
+    white-space: normal;
+    line-height: normal;
+}
+.plan_comparsion_setion .featured_insurance_rate .fs-18 {
+    font-size: 10px;
+    margin-top: 12px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th .fs-48 {
+    margin-bottom: 20px;
+}
+.plan_comparsion_discount .left {
+    padding: 5px 10px;
+    width: 100%;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th .fs-32 {
+    margin-top: 6px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table tr td ul li:first-child {
+    width: 120px;
+    line-height: normal;
+    white-space: normal;
+}
+.serva_benefit_section {
+    padding-bottom: 10.20833vw;
+    padding-top: 10.20833vw;
+}
+
+/* .serva_benefit_section .swiper-pagination {
+    left: 50%;
+    bottom: 10px;
+    background: red;
+    z-index: 9;
+}
+
+
+
+.serva_benefit_section  .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  opacity: 0.4;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+.serva_benefit_section  .swiper-pagination-bullet-active {
+  background-color: red;
+  opacity: 1;
+  transform: scale(1.3);
+} */
+
+
+.policy_details_box li a, .faq_list_box ul li a {
+    padding: 15px 28px;
+    font-size: 12px;
+}
+    .policy_details_box ul, .faq_list_box ul {
+        width: 100%;
+        margin: 0px;
+        justify-content: start;
+    }
+.policy_details_right .policy_details_table table tr th .fs-22 {
+    font-size: 16px;
+    text-align: center;
+    padding: 24px 0px;
+}
+.policy_details_right .policy_details_table,
+.policy_details_right .policy_details_table table{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.policy_details_right .policy_details_table tr td ul li:first-child {
+    list-style-type: disc;
+    width: 105px;
+}
+.policy_details_right .policy_details_table table tr td:first-child {
+    padding-left: 25px;
+}
+.policy_details_right .policy_details_table table tr th:first-child {
+    width: 50%;
+}
+.policy_details_right .policy_details_table table tr th, .policy_details_right .policy_details_table table tr td {
+    width: 50%;
+}
+.policy_details_right .policy_details_table tr td ul li {
+    font-size: 14px;
+}
+.policy_details_right .policy_details_table table tr td {
+    font-size: 14px;
+}
+.policy_details_right .policy_details_table table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+.policy_details_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.addons_section {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+    .addons_section .swiper-slide
+ {
+        padding: 40px;
+        border-radius: 20px;
+    }
+.swiper-nav-btnss {
+    position: absolute;
+    bottom: 72px;
+    top: auto;
+}
+.swiper-nav-btnss .next-btn-addon svg {
+    width: 30px;
+    height: 30px;
+}
+.swiper-nav-btnss .prev-btn-addon svg {
+    width: 30px;
+    height: 30px;
+}
+.swiper-nav-btnss .next-btn-addon {
+    right: 40%;
+}
+    .swiper-nav-btnss .prev-btn-addon {
+        left: 40%;
+    }
+    .addons-slider {
+    margin-top: 0px;
+}
+.serva_eligibility_section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.serva_eligibility_section .serva_eligibility_inner {
+    margin-top: 30px;
+}
+.serva_eligibility_section .serva_eligibility_inner {
+    border-radius: 15px;
+}
+
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_content {
+    padding-left: 0px;
+    padding-right: 0px;
+    gap: 20px;
+}
+.serva_eligibility_section .serva_elegibility_left .serva_elegibility_content:last-child {
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.customer_testimonial_sec {
+    padding-top: 38px;
+}.product-slider {
+    margin-top: 40px;
+}
+.faq-section {
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+.policy_details_box li a, .faq_list_box ul li a {
+    padding: 15px 35px;
+}
+.faq_row {
+    margin-top: 30px;
+}
+.faq-section ul.accordion-list li h3 {
+    padding-right: 20px;
+}
+.faq-section ul.accordion-list li h3:after {
+    width: 28px;
+    height: 28px;
+}
+.faq-section ul.accordion-list li h3 {
+    padding-right: 40px;
+}
+.faq_common_btn {
+    margin-top: 8vw;
+}
+.tooltip {
+    width: 300px;
+}
+.tooltip p {
+    white-space: normal;
+}
+.policy_details_right .policy_details_table table {
+    overflow: visible;
+}
+.tooltip {
+    left: -50px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+.tooltip:before {
+    bottom: -22px;
+    left: 66px;
+}
+.tooltip:after {
+    bottom: -15px;
+    left: 82px;
+}
+
+.tooltip:after {
+    bottom: -5px;
+    left: 79px;
+}
+.featured_insurance_sec .fatured_insurance_logo_rate .featured_insurance_rate {
+    padding-left: 8.64583vw;
+    width: 58%;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_issured .fs-36 {
+    font-size: 16px;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_issured .fs-18 {
+    font-size: 14px;
+}
+.featured_insurance_sec.serva_featured_insurance_sec .featured_insurance_issured .fs-20 {
+    font-size: 12px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_right .health_insurance_img img {
+    height: auto;
+}
+
+.health_insurance_sec.serva_banner_sec .health_insurance_content {
+    padding-top: 1.52083vw;
+    line-height: 1.5;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans {
+    width: 46%;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_inner .health_insurance_plans .best_plans p {
+    font-size: 16px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_plans {
+    row-gap: 20px;
+}
+.health_insurance_sec.serva_banner_sec .health_insurance_journey form .health_input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.health_input span {
+    font-size: 14px;
+}
+.plan_comparsion_discount .left .fs-16 {
+    font-size: 12px;
+}
+.plan_comparsion_setion .featured_insurance_rate .fs-18 {
+    font-size: 14px;
+    margin-top: 14px;
+}
+.plan_comparsion_setion .plan_comparsion_inner table th:first-child .fs-16 {
+    width: 180px;
+    font-size: 14px;
+}
+.policy_details_box li a, .faq_list_box ul li a {
+    padding: 15px 25px;
+    font-size: 14px;
+}
+.swiper-nav-btnss .next-btn-addon {
+    right: 40%;
+    width: 32px;
+    height: 32px;
+}
+.swiper-nav-btnss .prev-btn-addon {
+    left: 40%;
+    width: 32px;
+    height: 32px;
+}
+.sub_btn_details {
+    padding: 15px 35px;
+}
+.product-slider .dot_line .dot_box {
+    height: 20px;
+    width: 20px;
+    box-shadow: none;
+}
+.addons_section .swiper-slide-active
+ {
+        transform: scale(0.9);
+    }
+.swiper-nav-btnss {
+    bottom: 55px;
+}
+.faq_list_box ul {
+        width: 100%;
+        margin: 0px;
+        justify-content: start;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        -webkit-overflow-scrolling: touch;
+    }
+    .uin_img{
+        display: none;
+    }
+    .swiper-nav-btnss .prev-btn-addon{
+        padding: 0px;
+    }
+    .swiper-nav-btnss .prev-btn-addon svg, .swiper-nav-btnss .next-btn-addon svg{
+        width: 100%;
+    }
+    .swiper-nav-btnss .next-btn-addon {
+     padding: 0px;
+}
+.get_Sidebar_btn {
+     width: 215px;
+    height: 55px;
+    
+}
+.get_Sidebar_btn a {
+      font-size: 16px;
+  
+}
+.health_insurance_right .health_insurance_img {
+        width: 100%;
+    }
+.serva_inner_menu .serva_nav li a {
+    font-size: 16px;
+}
+.serva_overview_setion .serva_overview_inner .serva_overview_col ul li .so_content .fs-20 {
+    font-size: 16px;
+}
+.customer_testimonial_sec .splide__pagination li {
+    width: 52px;
+}
+.common_heading .sub_heading {
+    font-size: 18px;
+}
+.faq_list_box ul {
+    background: #fff;
+}
+.faq_list_box ul li {
+    width: inherit;
+}
+}

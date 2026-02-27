@@ -1,0 +1,5217 @@
+/* start journey one */
+
+
+.journey_first {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFF 0%, #E5E5E5 100%);
+    padding-top: 2.646vw;
+    position: relative;
+    padding-bottom: 2.646vw;
+}
+
+.journey_title {
+    width: 100%;
+    text-align: center;
+    max-width: 38.021vw;
+    margin: 0 auto;
+}
+
+.title_part{
+    color: #57585A;
+    font-size: 2.083vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title_part span{
+  color: #004778;
+}
+
+
+
+.port_policy_right {
+    background: #FFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.port_policy_right label{
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.port_policy_right label span {
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0.729vw 2.708vw;
+    display: inline-block;
+    color: #57585A;
+}
+
+.port_policy_right label input {
+    position:absolute;
+    top:-20px;
+    opacity: 0;
+}
+
+.port_policy_right  input:checked + span {
+    background: #F36222;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.journey_part_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 2.688vw;
+    column-gap: 2.604vw;
+}
+
+.journey_left {
+    width: 57.333vw;
+}
+
+.journey_right {
+    width: 22.292vw;
+    position: relative;
+    margin-top: -5.208vw;
+}
+
+.journey_right img{
+    width: 100%;
+}
+
+.journey_form_title {
+    width: 100%;
+}
+
+.form_title {
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #57585A;
+}
+
+.form_help_inner {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 1.719vw;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.25vw;
+}
+
+.form_help_left {
+    width: 48%;
+}
+
+.form_help_left input{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #57585A;
+    background: #FFF;
+    height: 3.125vw;
+    padding: 0px 20px;
+    outline: none;
+    font-size: 0.938vw;
+}
+
+.port_policy {
+    margin-top: 2.865vw;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    column-gap: 2.396vw;
+}
+
+.port_policy_left {
+    width: 21.875vw;
+}
+
+.port_policy_left .policy_left_heading{
+    color: #004778;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.port_policy_left p{
+    color: #000;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+    padding-top: 7px;
+}
+
+
+.tooltip_journey {
+    border-radius: 20px;
+    background: #DEDEDE;
+    width: 16.448vw;
+    padding: 1.563vw 1.823vw;
+    position: absolute;
+    left: -15.625vw;
+    bottom: 7.292vw;
+}
+
+.tooltip_journey::before{
+    content: "";
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="42" height="47" viewBox="0 0 42 47" fill="none"><path d="M42 -1.83588e-06C34.5333 32.2286 10.8889 44.7619 0 47L-2.05444e-06 0C3.73333 18.4163 29.5556 7.67347 42 -1.83588e-06Z" fill="%23DEDEDE"/></svg>');
+    width: 1.563vw;
+    height: 1.563vw;
+    position: absolute;
+    right: -1.354vw;
+    top: 2.656vw;
+    background-size: 100% 100%;
+}
+
+.tooltip_journey h4{
+    color: #000;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tooltip_journey p{
+    color: #57585A;
+    font-size: 0.729vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    display: block;
+    padding-top: 7px;
+}
+
+.jurney_button_common {
+    padding-top: 3.125vw;
+    display: flex;
+    column-gap: 18px;
+}
+
+.button_next_common, .button_prev_common{
+    padding: 0.99vw 1.875vw;
+    border-radius: 10px;
+    background: var(--Orange, linear-gradient(180deg, #F5841F 0%, #F36222 100%));
+    color: #fff;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.button_prev_common {
+    background: #fff;
+    border: 3px solid #F36222;
+    color: #F36222;
+}
+
+/* end journey one */
+
+/* start otp box css */
+
+.otp_box_main{
+     width: 100%;
+	 height: 100%;
+	 background: rgba(0, 0, 0, 0.4);
+	 display: none;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 text-align: center;
+     z-index: 999;
+}
+
+ 
+.popup__content {
+     border-radius: 20px;
+     width: 34.25vw;
+     padding: 2.083vw 3.125vw;
+     overflow: auto;
+	 padding: 3.646vw;
+	 background: white;
+	 color: black;
+	 position: relative;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 box-sizing: border-box;
+}
+
+
+.otp_box_main .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    background: #F36222;
+    height: 50px;
+    border-radius: 50%;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+ .otp_box_main .close span {
+    cursor: pointer;
+    position: fixed;
+    width: 25px;
+    height: 3px;
+    background: #ffffff;
+}
+
+ .otp_box_main .close span:nth-child(1) {
+	 transform: rotate(45deg);
+}
+
+ .otp_box_main .close span:nth-child(2) {
+	 transform: rotate(135deg);
+}
+
+
+.otp_icon {
+    width: 6.813vw;
+    margin: 0 auto;
+}
+
+.otp_icon img{
+    width: 100%;
+}
+
+.otp_title_box {
+    width: 100%;
+    padding-top: 1.146vw;
+}
+
+.otp_title_box .otp_title{
+    color: #000;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.otp_title_box p{
+    color: #57585A;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 9px;
+}
+
+.sent_otp_box {
+    padding: 0px 3.125vw;
+    padding-top: 1.563vw;
+    color: #57585A;
+    text-align: center;
+    font-size: 1.146vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.667vw;
+}
+
+.sent_otp_box span{
+    font-weight: 700;
+}
+
+.input_otp_box{
+    padding-top: 30px;
+}
+
+.input_otp_box aside{
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: center;
+    column-gap: 1.302vw;
+}
+
+.input_otp_box aside input {
+    width: 3.425vw;
+    height: 3.567vw;
+    border-radius: 10px;
+    border: 1px solid #57585A;
+    background: #FFF;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: center;
+}
+
+.resent_otp {
+    width: 100%;
+    padding-top: 2.083vw;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1.563vw;
+}
+
+.resent_otp a{
+    color: #004778;
+    font-weight: 700;
+}
+
+/* end otp box css */
+
+
+/* start journey two */
+
+   
+.journey_second .journey_title {
+    max-width: 47.021vw;
+}
+
+.journey_second .journey_right{
+    width: 31.25vw;
+    height: fit-content;
+    margin-top: -2.208vw;
+}
+
+.gender_inner{
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 25px;
+}
+
+
+.gender_inner label{
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.gender_svg {
+    color: #b1b1b1;
+    text-align: center;
+    width: 100%;
+}
+
+.gender_inner label span {
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+    display: block;
+    opacity: 0.6;
+}
+
+.radio_check {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    border-radius: 8px;
+    background: #F2F2F2;
+    color: #57585A;
+    padding: 0.381vw 0.542vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.365vw;
+    max-width: 4.427vw;
+}
+
+.gender_inner label input {
+    position:absolute;
+    top:-1.042vw;
+    opacity: 0;
+}
+
+.gender_svg {
+    width: 1.463vw;
+    display: inline-block;
+}
+
+.gender_svg svg{
+    width: 100%;
+}
+
+.gender_inner  input:checked + .radio_check {
+    background: #F36222;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.gender_inner  input:checked + .radio_check span{
+    font-weight: 700;
+    opacity: 1;
+}
+
+.gender_inner  input:checked + .radio_check .gender_svg{
+    color: #fff; 
+}
+
+.gender_box {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: center;
+    column-gap: 3.646vw;
+    margin-bottom: 2.083vw;
+}
+
+.journey_second_part_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 2.688vw;
+    column-gap: 2.604vw;
+}
+
+.journey_second_left {
+    width: 50.333vw;
+}
+
+.journey_second_right {
+    width: 30.25vw;
+    height: fit-content;
+    margin-top: -0.208vw;
+}
+
+.journey_second_right img{
+    width: 100%;
+}
+
+.journey_form_title {
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #57585A;
+}
+
+
+
+.checkbox_main input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.checkbox_main label {
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1.5px solid rgba(87, 88, 90, 0.50);
+    background: #FFF;
+    padding: 0.469vw 0.521vw;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: space-between;
+}
+
+.checkbox_name{
+    color: #57585A;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.checkbox_icon{
+    width: 2.604vw;
+    height: 2.604vw;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.checkbox_icon img{
+    width: 100%;
+}
+
+.checkbox_main input:checked + label {
+    border: 3px solid #004778;
+}
+
+.checkbox_main input:checked + label .checkbox_name{
+    opacity: 1;
+    color: #57585A;
+}
+
+.family_member_checkbox {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    padding-top: 1.563vw;
+    column-gap: 1.154vw;
+    row-gap: 1.154vw;
+    flex-wrap: wrap;
+}
+
+.checkbox_main {
+    width: 31%;
+}
+
+.quantity {
+    border-radius: 6px;
+    background: #004778;
+    width: 5.208vw;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: space-between;
+}
+
+.quantity .minus, .quantity .plus {
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.042vw;
+    width: 1.563vw;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quantity .input-box {
+    text-align: center;
+    border: none;
+    padding: 0;
+    outline: none;
+    font-size: 0.938vw;
+    color: #fff;
+    font-weight: 700;
+    background: none;
+    display: block;
+    width: max-content;
+    max-width: 1.875vw;
+}
+
+.quality_input_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    column-gap: 0.781vw;
+}
+
+
+
+.quantity .input-box::-webkit-inner-spin-button,
+.quantity .input-box::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.quantity .input-box[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.journey_first .container{
+    padding-left: 11.458vw;
+}
+
+
+/* end journey two */
+
+
+
+/* start journey three */
+
+
+.taking_three_journey{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 4.688vw;
+    column-gap: 2.604vw;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+.three_journey_left {
+    width: 43.333vw;
+}
+
+
+.three_journey_right {
+    width: 25.292vw;
+    position: relative;
+    bottom: -3.438vw;
+}
+
+.three_journey_right img{
+    width: 100%;
+}
+
+.form_title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+.journey_three .port_policy_left {
+    width: 100%;
+    margin-top: 1.365vw;
+}
+
+.journey_three .port_policy_left p{
+    color: #57585A;
+    opacity: 0.51;
+}
+
+.journey_three .journey_form_title {
+    text-align: center;
+}
+
+.tooltip_journey_three {
+    padding: 1.458vw 1.25vw;
+    border-radius: 20px;
+    background: #DEDEDE;
+    width: 18.052vw;
+    position: absolute;
+    left: -11.125vw;
+    top: -6.208vw;
+}
+
+.tooltip_journey_three::before {
+    content: "";
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="33" viewBox="0 0 36 33" fill="none"><path d="M36 33C11.3143 27.1333 1.71429 8.55556 0 0H36C21.8939 2.93333 30.1224 23.2222 36 33Z" fill="%23DEDEDE"/></svg>');
+    width: 2.163vw;
+    height: 2.163vw;
+    position: absolute;
+    right: 5.646vw;
+    bottom: -1.844vw;
+    background-size: 100% 100%;
+}
+
+.tooltip_journey_three h4{
+    color: #000;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tooltip_journey_three p{
+    color: #57585A;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 7px;
+}
+
+.family_member_form_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    column-gap: 1.719vw;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.85vw;
+}
+
+.family_member_select {
+    width: 48%;
+    position: relative;
+}
+
+.family_member_select select{
+    width: 100%;
+    height: 3.125vw;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #004778;
+    background: #FFF;
+    color: rgba(87, 88, 90, 0.70);
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.family_member_select::before {
+    content: "";
+    pointer-events: none;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: absolute;
+    right: 1.233vw;
+    top: 1vw;
+}
+
+.journey_three {
+    padding-bottom: 5.646vw;
+}
+
+.journey_three .jurney_button_common {
+    justify-content: center;
+}
+
+/* end journey three */
+
+
+
+/* start journey four */
+
+
+.taking_four_journey {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding-top: 2.688vw;
+    column-gap: 2.604vw;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+
+.four_journey_left {
+    width: 46.333vw;
+}
+
+.four_journey_right {
+    width: 23.292vw;
+    position: relative;
+}
+
+.four_journey_right img{
+    width: 100%;
+}
+
+
+
+
+.journey_four .journey_form_title {
+    text-align: center;
+    padding: 0 6.771vw;
+    line-height: 1.563vw;
+}
+
+.journey_four .port_policy_left {
+    width: 100%;
+    margin-top: 1.365vw;
+}
+
+.journey_four .port_policy_left p {
+    color: #57585A;
+    opacity: 0.51;
+}
+
+.journey_four .jurney_button_common {
+    justify-content: center;
+}
+
+
+
+
+
+.medical_checkbox_main {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 13px;
+    row-gap: 13px;
+    padding-top: 40px;
+}
+
+.medical_checkbox_inner{
+    width: 31%;
+}
+
+.medical_checkbox_inner input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.medical_checkbox_inner label {
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1.5px solid rgba(87, 88, 90, 0.50);
+    background: #FFF;
+    padding: 0.833vw 1.042vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.medical_checkbox_name{
+    color: #57585A;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.medical_checkbox_inner label span{
+    width: 8px;
+    height: 8px;
+    background: #57585A;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.medical_checkbox_inner input:checked + label {
+    border: 3px solid #004778;
+}
+
+.medical_checkbox_inner input:checked + label span{
+    display: none;
+}
+
+.medical_checkbox_inner input:checked + label .medical_checkbox_name{
+    opacity: 1;
+    color: #57585A;
+}
+
+
+.journey_four .tooltip_journey_three {
+    left: -10.125vw;
+    top: -0.608vw;
+}
+
+.journey_four .tooltip_journey_three::before{
+    right: 1.646vw;
+}
+
+/* end journey four */
+
+
+
+
+/* start journey five */
+
+
+
+
+
+.general_info_sec {
+    padding-bottom: 2.604vw;
+    position: relative;
+    width: 100%;
+}
+.general_info_sec .general_info_row {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(87, 88, 90, 0.30);
+    background: #F5F5F5;
+    padding: 0.6vw 1.042vw;
+}
+.general_info_sec .general_info_row .general_infor_left {
+    width: 85%;
+}
+.general_info_sec .general_info_row .general_infor_right {
+    width: 15%;
+}
+.general_info_sec .general_info_row .general_infor_left ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    width: fit-content;
+    padding-left: 3.385vw;
+    padding-right: 3.385vw;
+    position: relative;
+    font-size: 1.042vw;
+}
+.general_info_sec .general_info_row .general_infor_left ul li::before {
+    content: "";
+
+}
+.general_info_sec .general_info_row .general_infor_left ul li:last-child {
+    padding-right: 0px;
+}
+.general_info_sec .general_info_row .general_infor_left ul li:last-child::before {
+    display: none;
+}
+.general_info_sec .general_info_row .general_infor_left ul li::before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: rgba(0, 71, 120, 0.30);
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.general_info_sec .general_info_row .general_infor_left ul li:first-child {
+    padding-left: 0px;
+}
+.general_info_sec .general_info_row .general_infor_right button {
+    min-width: 100%;
+}
+.general_info_sec .general_info_row .general_infor_left ul li span {
+    color: #004778;
+    font-weight: 700;
+}
+.general_info_sec .general_info_row .general_infor_left ul li .li_right {
+    color: #57585A;
+    font-weight: 400;
+}
+
+.recommended_plans_sec {
+    padding-top: 65px;
+    width: 100%;
+    position: relative;
+}
+.recommended_plans_sec .common_heading .recommended_plans_heading {
+    color: #004778;
+    font-size: 2.08333vw;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.recommended_plans_sec .recommended_plans_inner {
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    gap: 1.667vw;
+    align-items: flex-start;
+}   
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left {
+    width: 70%;
+}
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_right {
+    width: 30%;
+}
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col{
+   border-radius: 20px;
+    border: 2px solid rgba(87, 88, 90, 0.50);
+    background: linear-gradient(180deg, #FFF 0%, #F6F6F6 100%);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+    margin-bottom: 0.885vw;
+}
+
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col.active{
+    border-color: #004778;
+}
+
+
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .recommended_plans_box {
+ padding-left: 2.083vw;
+    padding-right: 2.083vw;
+    padding-top: 1.667vw;
+    padding-bottom: 2.813vw;
+}
+
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .best_choice .fs-20 {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .best_choice .fs-20 {
+    color: #FFF;
+    font-size: 1.042vw;
+    font-weight: 700;
+    padding: 0.8vw 2.083vw;
+        background:  linear-gradient(180deg, #0284C9 0%, #004778 100%);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.best_choice_content .bc_row {
+   display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: space-between;
+}
+.best_choice_content .bc_row .bc_left {
+   display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bc_left_img{
+    width: 9.635vw;
+}
+
+.bc_left_img img{
+    width: 100%;
+}
+
+.best_choice_content .bc_row .bc_left .pratham_box{
+    font-weight: 700;
+    color: #004778;
+    font-family: var(--theme-font-sans-serif);
+}
+.best_choice_content .bc_row .bc_left .bc_discount {
+    background: #03F;
+    padding: 4px 1.042vw;
+    color: #ffff;
+    position: relative;
+}
+
+.best_choice_content .bc_row .bc_left .bc_discount .fs-16{
+    font-size: 0.833vw;
+}
+
+.best_choice_content .para_cotent p {
+    margin-top: 2.865vw;
+    margin-bottom: 1.042vw;
+    color: #57585A;
+
+}
+.health_insurance_plans {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    gap: 1.563vw 2.083vw;
+    flex-wrap: wrap;
+}
+.health_insurance_plans .best_plans {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    gap: 9px;
+}
+.health_insurance_plans .best_plans .tick_icon {
+    height: 24px;
+    width: 24px;
+}
+.health_insurance_plans .best_plans .tick_icon img {
+    width: 100%;
+    height: auto;
+}
+.health_insurance_plans .best_plans p{
+color: #57585A;
+}
+.best_choice_content .bc_right h3 {
+    color: #004778;
+    font-weight: 700;
+}
+.best_choice_content .bc_right p {
+    color: #57585A;
+    font-size: 0.938vw;
+    font-weight: 400;
+}
+
+.bottom_insurance_plans .row {
+     display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+     justify-content: space-between;
+}
+.bottom_insurance_plans .bottom_insurance_left {
+    width: fit-content;
+}
+.bottom_insurance_plans .bottom_insurance_center {
+    width: 45%;
+}
+.bottom_insurance_plans .bottom_insurance_center ul{
+      display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    gap: 6px;
+}
+.bottom_insurance_plans .bottom_insurance_center ul li {
+    border: 1px solid rgba(87, 88, 90, 0.30);
+    background: #FFF;
+    padding: 0.417vw 0.833vw;
+    border-radius: 6px;
+    font-size: 0.938vw;
+    color: #57585A;
+    font-weight: 400;
+}
+.bottom_insurance_plans .bottom_insurance_right {
+    width: 18.792vw;
+}
+.bottom_insurance_plans .bottom_insurance_right .bottom_insurance_box button{
+    padding: 1.302vw 3.375vw;
+    border-radius: 10px;
+background:   linear-gradient(180deg, #F5841F 0%, #F36222 100%);
+color: #FFF;
+text-align: center;
+font-weight: 700;
+}
+.bottom_insurance_plans .bottom_insurance_left .bottom_insurance_content{
+    color: #000;
+    font-weight: 700;
+}
+.best_choice_content .bottom_insurance_plans {
+    border-top: solid 1px #57585A;
+    padding-top: 15px;
+    margin-top: 1.563vw;
+}
+.bottom_insurance_plans .bottom_insurance_center .bottom_insurance_btn a {
+       color: #F36222;
+    font-size: 0.938vw;
+    text-decoration: underline;
+    margin-top: 9px;
+    font-weight: 700;
+    display: inline-block;
+}
+.bc_discount{
+    position: relative;
+}
+.bc_discount::before, .bc_discount::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    display: block;
+}
+
+.bc_discount::before {
+    top: 0;
+    border-width: 25px 15px 0 0;
+    border-color: #0033FF transparent transparent transparent;
+}
+
+.bc_discount::after {
+    bottom: 0;
+    border-width: 0 15px 25px 0;
+    border-color: transparent transparent #0033FF transparent;
+}
+
+
+
+.recommended_plans_box_right {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgba(87, 88, 90, 0.20);
+    background: linear-gradient(180deg, #FFF 0%, #F6F6F6 100%);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 2.083vw;
+}
+
+.recommended_plans_box_right ul li {
+ display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding: 0.99vw 0px;
+    border-bottom: solid 1px rgb(87 88 90 / 30%);
+}
+.recommended_plans_box_right ul li:first-child{
+    padding-top: 0px;
+}
+.recommended_plans_box_right ul li:last-child{
+    border: none;
+}
+.recommended_plans_box_right ul li .get_infinite_icon {
+    width: 2.813vw;
+    height: 2.813vw;
+}
+.recommended_plans_box_right ul li .get_infinite_icon img {
+    width: 100%;
+}
+.recommended_plans_box_right ul li .get_infinite_content {
+    color: #004778;
+      font-weight: 700;
+}
+.recommended_plans_box_right p{
+    color: #57585A;
+    font-size: 0.729vw;
+    opacity: 0.51;
+}
+ .bottom_insurance_plans .bottom_insurance_right .bottom_insurance_box {
+    text-align: right;
+}
+ 
+.recommended_plans_right_top h3 {
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    color: #57585A;
+    margin-bottom: 2.083vw;
+}
+
+
+.stay_covered_box {
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid rgba(87, 88, 90, 0.20);
+    background: linear-gradient(180deg, #FFF 0%, #F6F6F6 100%);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 1.823vw 1.823vw;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.stya_coverd_main{
+    width: 100%;
+    display: block;
+}
+
+.stay_covered_img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.stay_covered_img img{
+    width: 100%;
+}
+
+.stay_covered_title_main {
+    width: 100%;
+    padding: 0 1.846vw;
+    padding-top: 11px;
+}
+
+.stay_covered_title_main .fs-24{
+    color: #004778;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.563vw;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    padding-bottom: 9px;
+}
+
+.stay_covered_title_main p{
+    color: #57585A;
+    text-align: center;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.458vw; 
+    opacity: 0.8;
+}
+
+.stay_covered_box .splide__pagination {
+    position: static;
+    padding: 0;
+    margin-top: 25px;
+    display: -webkit-box !important;  
+    display: -ms-flexbox !important;    
+    display: -webkit-flex !important;     
+    display: flex !important;
+}
+
+.stay_covered_box .splide__pagination__page {
+    background: #EEEEEE;
+    height: 13px;
+    margin: 0 6px;
+    opacity: 1;
+    padding: 0;
+    width: 13px;
+}
+
+.stay_covered_box .splide__pagination__page.is-active {
+    background: #00B8F0;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.recommended_plan_data {
+    padding: 0px 1.883vw;
+    margin-top: 2.604vw;
+}
+
+.recommended_plan_data p{
+    display: block;
+    color: #57585A;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.recommended_plan_data ul{
+    list-style: none;
+    padding: 0;
+    padding-top: 1.563vw;
+}
+
+.recommended_plan_data ul li{
+    width: 100%;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding: 0.521vw 0px;
+}
+
+.recommended_plan_data ul li span{
+   color: #57585A;
+   width: 20px;
+}
+
+.recommended_plan_data ul li .data_recommended {
+    flex: 1;
+    width: 100%;
+    color: #57585A;
+    font-size: 0.833vw;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+
+.policy_slider_title {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5.208vw;
+}
+
+.policy_slider_title .fs-28{
+    color: #004778;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.policy_slider_main .splide__track {
+    padding: 30px 15px !important;
+}
+
+
+
+.policy_slider_main .splide__pagination {
+    margin-top: 10px;
+    position: static;
+    display: -webkit-box !important;  
+    display: -ms-flexbox !important;    
+    display: -webkit-flex !important;     
+    display: flex !important;
+    opacity: 1;
+}
+
+.policy_slider_main .splide__pagination__page {
+    background: #EEEEEE;
+    height: 13px;
+    margin: 0 6px;
+    opacity: 1;
+    padding: 0;
+    width: 13px;
+}
+
+.policy_slider_main .splide__pagination__page.is-active {
+    background: #00B8F0;
+    transform: scale(1);
+    z-index: 1;
+}
+
+/* end journey five */
+
+
+
+
+
+
+
+
+/* start journey six  */
+
+   
+
+.journey_six_main {
+    width: 100%;
+}
+
+.journey_six_inner_main {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 2.448vw;
+    align-items: flex-start;
+    padding-top: 0px;
+}
+
+.journey_six_left_main {
+    width: 58.073vw;
+}
+
+.overview_box_main {
+    border-radius: 20px;
+    border: 1px solid rgba(87, 88, 90, 0.20);
+    background: linear-gradient(180deg, #FFF 0%, #F6F6F6 100%);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 2.083vw 3.646vw;
+    width: 100%;
+}
+
+.overview_title {
+    color: #57585A;
+    font-size: 1.458vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.overview_logo_main {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    padding-top: 1.302vw;
+    column-gap: 2.604vw;
+    align-items: flex-start;
+}
+
+.overview_logo {
+    width: 9.375vw;
+}
+
+.overview_logo img{
+    width: 100%;
+}
+
+.overview_cantent {
+    flex: 1;
+    width: 100%;
+    color: #57585A;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.354vw;
+    letter-spacing: -0.18px;
+}
+
+.sum_insured_inner {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    padding-top: 1.302vw;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.sum_insured_left {
+    color: #004778;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sum_insured_right {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+}
+
+.sum_insured_right select {
+    border-radius: 6px;
+    border: 1px solid rgba(87, 88, 90, 0.30);
+    background: #FFF;
+    height: 2.5vw;
+    width: 100%;
+    padding: 0px 1.042vw;
+    color: #57585A;
+    font-size: 1.042vw;
+    font-weight: 700;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.sum_insured_right::before {
+    content: "";
+    pointer-events: none;
+    border: solid #57585A;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    position: absolute;
+    right: 1.033vw;
+    top: 0.833vw;
+}
+
+.policy_tenure_main {
+    padding-top: 30px;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 2.24vw;
+    align-items: center;
+}
+
+.policy_tenure_title {
+    color: #004778;
+    font-size: 1.042vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.policy_tenure_inner {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 15px;
+    flex: 1;
+}
+
+.policy_tenure_left {
+    width: 33.3%;
+}
+
+.policy_tenure_left label {
+    width: 100%;
+}
+
+.card.card-body {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    height: 100%;
+    border-radius: 6px;
+    border: 1px solid rgba(87, 88, 90, 0.30);
+    background: #FFF;
+    height: 3.646vw;
+    padding: 0.521vw 0.833vw;
+    position: relative;
+}
+
+.content_sub {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    align-items: flex-end;
+}
+
+.content_head {
+    color: #000;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+}
+
+.discount_tenure {
+    position: absolute;
+    bottom: 0.313vw;
+    color: #F36222;
+    font-size: 0.625vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
+.content_sub_rupee {
+    color: #57585A;
+    font-size: 0.729vw;
+    font-weight: 700;
+    opacity: 0.9;
+}
+
+.content_sub_price {
+    opacity: 0.9;
+    color: #57585A;
+    font-size: 0.833vw;
+    font-weight: 700;
+}
+
+.content_sub_gst {
+    color: #57585A;
+    font-size: 0.729vw;
+    font-weight: 700;
+}
+
+
+.card-input-element:checked + .card {
+  border: 2px solid #004778;
+}
+
+.card-input-element:checked + .card .content_head{
+    opacity: 1;
+}
+
+.tenure_cantent_box{
+    width: 100%;
+    padding: 1.875vw 0px;
+    margin-top: 1.875vw;
+    border-top: 1px solid #57585a30;
+    border-bottom: 1px solid #57585a30;
+}
+
+.tenure_cantent_box ul{
+    list-style: none;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.646vw;
+    row-gap: 0.938vw;
+}
+
+
+.tenure_cantent_box ul li{
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 0.833vw;
+    align-items: center;
+}
+
+.tenure_cantent_box ul li span{
+    width: 1.302vw;
+}
+
+.tenure_cantent_box ul li span svg{
+    width: 100%;
+}
+
+.tenure_cantent_box ul li .cantent_box_tenure {
+    width: 100%;
+    flex: 1;
+    color: #57585A;
+    font-size: 1.042vw;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.premium_price_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1.771vw;
+}
+
+.premium_price_left {
+    width: 23%;
+}
+
+.premium_price_left.final_amount{
+    width: 30%;
+}
+
+.premium_price_title {
+    width: 100%;
+}
+
+.premium_price_title span{
+    width: 100%;
+    color: #57585A;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.premium_price_sub {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: flex-end;
+    column-gap: 1px;
+    color: #57585A;
+    font-size: 1.25vw;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.premium_price_sub_price {
+    padding-left: 4px;
+    font-size: 1.667vw;
+    line-height: normal;
+}
+
+.premium_price_year {
+    font-size: 0.833vw;
+}
+
+
+.final_amount .premium_price_title span{
+    font-size: 1.042vw;
+}
+
+
+.premium_price_title p{
+    font-size: 0.729vw;
+    font-weight: 700;
+    color: #57585A;
+}
+
+.final_amount .premium_price_rupee {
+    font-size: 2.5vw;
+    color: #004778;
+    line-height: 2.304vw;
+}
+
+.final_amount .premium_price_sub_price {
+    font-size: 3.333vw;
+    color: #004778;
+    line-height: 2.904vw;
+}
+
+.final_amount .premium_price_year{
+    font-size: 0.833vw;
+    color: #004778;
+}
+
+
+
+.pilicy_data_main {
+    width: 100%;
+    padding-top: 4.948vw;
+}
+
+.pilicy_title {
+    width: 100%;
+    display: block;
+}
+
+.pilicy_title .overview_title{
+    color: #004778;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pilicy_data_inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.385vw;
+    row-gap: 3.594vw;
+    padding-top: 2.083vw;
+}
+
+
+.pilicy_data_left {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+    padding: 1.563vw 1.883vw;
+    width: 100%;
+}
+
+.policy_load{
+    display: none;
+}
+
+.hospitalization_inner {
+    display: flex;
+    align-items: center;
+    column-gap: 1.042vw;
+}
+
+.hospitalization_left {
+    width: 8.854vw;
+}
+
+.hospitalization_left img{
+    width: 100%;
+}
+
+.hospitalization_right {
+    flex: 1;
+    width: 100%;
+}
+
+.hospitalization_right_title {
+    color: #004778;
+    font-size: 1.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.458vw;
+}
+
+
+.hospitalization_right p{
+    padding-top: 4px;
+    color: #57585A;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.354vw;
+    letter-spacing: -0.18px;
+}
+
+
+.prce_add_inner {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
+    padding-top: 1.667vw;
+}
+
+.price_add_left {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: flex-end;
+    column-gap: 1px;
+}
+
+.price_add_rupee {
+    color: #004778;
+    font-size: 1.25vw;
+    font-weight: 700;
+}
+
+.price_add_sub_price {
+    color: #004778;
+    font-size: 1.875vw;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.price_add_year {
+    color: #004778;
+    font-size: 0.833vw;
+    font-weight: 700;
+    line-height: 1.563vw;
+}
+
+.add_btn {
+    color: #F36222;
+    text-align: center;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #F36222;
+    display: inline-block;
+    padding: 0.625vw 1.458vw;
+    outline: none;
+}
+
+.add_btn.fill_btn{
+    background: linear-gradient(180deg, #F5841F 0%, #F36222 100%);
+    color: #fff;
+    border-color: #ffffff;
+}
+
+.view_all_btn_main {
+    width: 100%;
+    text-align: center;
+    padding-top: 4.167vw;
+}
+
+.view_all_btn{
+    text-align: center;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: none;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.825vw 1.458vw;
+    outline: none;
+    background: linear-gradient(180deg, #F5841F 0%, #F36222 100%);
+    color: #fff;
+}
+
+
+
+
+
+.journey_main{
+    overflow: visible;
+    position: initial;
+}
+
+.journey_six_right_main {
+    width: 28.125vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 6.771vw;
+    border-radius: 20px;
+    border: 1px solid rgba(87, 88, 90, 0.20);
+    background: var(--Linear, linear-gradient(180deg, #FFF 0%, #E5E5E5 100%));
+    padding: 1.302vw 1.667vw;
+}
+
+.journey_right_title {
+    color: #57585A;
+    font-size: 1.667vw;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 1.042vw;
+    border-bottom: 1px solid #57585A50;
+}
+
+.sarvah_pratham_title {
+    display: block;
+    width: 100%;
+    color: #004778;
+    font-size: 1.25vw;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 1.042vw;
+}
+
+
+.flag-discount {
+    color: #fff;
+    display: inline-block;
+    padding: 4px 1.042vw;
+    background: #0033FF;
+    position: relative;
+    left: -1.719vw;
+    margin-top: 1.442vw;
+    font-size: 0.833vw;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 1.719vw;
+}
+
+.flag-discount::before,
+.flag-discount::after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    display: block;
+}
+.flag-discount::before {
+    top: 0;
+    border-width: 25px 15px 0 0;
+    border-color: #0033FF transparent transparent transparent;
+}
+
+.flag-discount::after {
+    bottom: 0;
+    border-width: 0 15px 25px 0;
+    border-color: transparent transparent #0033FF transparent;
+}
+
+
+.policy_period_price {
+    width: 100%;
+    padding-top: 1.563vw;
+}
+
+.policy_period_price ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    line-height: 2.292vw;
+    align-items: center;
+}
+
+.policy_period_left {
+    text-align: left;
+    width: 100%;
+    color: #57585A;
+    font-size: 0.938vw;
+    font-weight: 400;
+}
+
+.policy_period_right{
+    width: 100%;
+    color: #57585A;
+    font-size: 1.25vw;
+    font-weight: 700;
+    line-height: normal;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.policy_period_right span {
+    font-size: 0.833vw;
+    line-height: 1.458vw;
+}
+
+.policy_period_price ul li:last-child {
+    border-top: 1px solid #57585A50;
+    padding-top: 0.821vw;
+    margin-top: 1.021vw;
+}
+
+.policy_period_price ul li:last-child .policy_period_left{
+    font-weight: 700;
+}
+
+.policy_period_price ul li:last-child .policy_period_right{
+    color: #004778;
+    font-size: 1.875vw;
+}
+
+.policy_period_price ul li:last-child .policy_period_right span {
+    font-size: 1.25vw;
+    line-height: 1.858vw;
+}
+
+.btn_buy {
+    padding-top: 1.042vw;
+    width: 100%;
+}
+
+.btn_buy button{
+    width: 100%;
+    padding: 0.99vw 1.875vw;
+    border-radius: 10px;
+    background: var(--Orange, linear-gradient(180deg, #F5841F 0%, #F36222 100%));
+    color: #fff;
+    font-size: 0.938vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.btn_bottom_cnt {
+    padding: 0px 2.083vw;
+    color: #57585A;
+    text-align: center;
+    font-size: 0.625vw;
+    font-weight: 300;
+    line-height: 0.833vw;
+    padding-top: 0.729vw;
+    opacity: 0.51;
+}
+
+/* end journey six  */
+
+
+
+
+/* start health insourance sec */
+
+  .health_insuranceis_sec {
+    padding-top: 5.20833vw;
+    padding-bottom: 2.083vw;
+}
+        .health_insuranceis_sec .health_insuranceis_inner {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+            gap: 6.71875vw;
+        }
+        .health_insuranceis_sec .health_insuranceis_left .fs-56 {
+            font-size: 2.91667vw;
+            color: var(--theme-secondary);
+            font-weight: 700;
+            padding-top: 0.72917vw;
+        }
+        .health_insuranceis_sec .common_heading {
+            text-align: start;
+        }
+        .health_insuranceis_sec .health_insuranceis_img img {
+            width: 100%;
+        }
+        .health_insuranceis_sec .health_insuranceis_img {
+            width: 23.49vw;
+            float: right;
+        }
+        .health_insuranceis_right {
+            padding-top: 50px;
+        }
+
+        .health_insuranceis_sec .health_insuranceis_right ul li a {
+            display: flex;
+            align-items: start;
+            gap: 15px;
+            padding-top: 2.438vw;
+            font-weight: 700;
+            color: #57585A;
+        }
+        .health_insuranceis_sec .health_insuranceis_right ul li:first-child a {
+            padding-top: 0px;
+        }
+
+        .health_insuranceis_sec .health_insuranceis_right ul li a .fs-20{
+            flex: 1;
+        }
+
+
+
+/* end health insourance sec */
+
+
+
+
+
+.form_step {
+  display: none;
+}
+
+.form-step-active {
+  display: block;
+}
+
+.journey_six_main .general_info_sec {
+    padding-top: 3.604vw;
+}
+
+
+.mobile_button_now_inner{
+    display: none;
+}
+
+.mobile_toggle_detail{
+    display: none;
+}
+
+
+
+
+
+/* start popup edit detail */
+
+.hidde_scroll{
+    overflow: hidden;
+}
+
+.detail_popup {
+	 width: 100%;
+	 height: 100%;
+	 background: rgba(0, 0, 0, 0.4);
+	 display: none;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 text-align: center;
+     z-index: 999;
+}
+
+.detail_popup .popup__content {
+    width: 89.583vw;
+    overflow: auto;
+    padding: 2.604vw 5vw;
+    color: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FFF 0%, #F6F6F6 100%);
+}
+
+
+
+.detail_popup .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    background: #F36222;
+    height: 50px;
+    border-radius: 50%;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+ .detail_popup .close span {
+    cursor: pointer;
+    position: fixed;
+    width: 25px;
+    height: 3px;
+    background: #ffffff;
+}
+
+ .detail_popup .close span:nth-child(1) {
+	 transform: rotate(45deg);
+}
+
+ .detail_popup .close span:nth-child(2) {
+	 transform: rotate(135deg);
+}
+
+
+
+
+
+
+
+/* start acordian */
+
+
+.accordion {
+    max-width: 100%;
+    margin-top: 0.804vw;
+    text-align: left;
+    width: 100%;
+}
+
+.at-tab {
+    display: none;
+    padding: 1.563vw 1.667vw;
+    padding-top: 0;
+    border-top: none;
+}
+
+.at-title {
+  cursor: pointer;
+  position: relative;
+}
+
+
+.at-title:after {
+    content: "";
+    position: absolute;
+    top: 1.563vw;
+    right: 30.01px;
+    transition: all 0.3s ease;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 0.417vw;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.at-title.active:after {
+  content: "-";
+  display: none;
+}
+
+.at-item {
+  border-bottom: 1px solid #57585A30;
+}
+
+.at-title .fs-32 {
+    font-weight: 600;
+    padding: 1.302vw 1.563vw;
+    margin: 0;
+    color: #004778;
+}
+
+.general_info_popup .form_help_inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0;
+    column-gap: 2.604vw;
+}
+
+.general_info_popup .form_help_inner .form_help_left {
+    width: 100%;
+}
+
+.general_info_popup .form_help_inner .family_member_select {
+    width: 100%;
+}
+
+.general_info_popup .form_help_inner .family_member_select select{
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.general_info_checkbox .medical_checkbox_main{
+    padding-top: 0;
+}
+
+/* emd acordian */
+
+
+
+/* end popup edit detail */
+
+
+
+/* start tab line */
+
+.line_scroll{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3%;
+  z-index: 99;
+}
+
+.line_part{
+    width: 100%;
+    background: #004778;
+    height: 0.41667vw;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+}
+
+.line_scroll span {
+    border-radius: 13px;
+    background: #57585A;
+    width: 2.188vw;
+    height: 1.302vw;
+    color: #FFF;
+    font-size: 0.781vw;
+    font-weight: 700;
+    line-height: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    right: -0.885vw;
+    top: 1.042vw;
+}
+
+.line_scroll span::before{
+    content: "";
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9" fill="none"><path d="M6 0L11.1962 9H0.803848L6 0Z" fill="%2357585A"/></svg>');
+    background-size: 100% 100%;
+    width: 0.729vw;
+    height: 0.677vw;
+    position: absolute;
+    top: -0.573vw;
+}
+
+
+.journey_second .line_scroll {
+    width: 20%;
+}
+
+.journey_three .line_scroll {
+    width: 40%;
+}
+
+.journey_four .line_scroll {
+    width: 60%;
+}
+
+.recommended_plans_sec .line_scroll {
+    width: 80%;
+}
+
+.journey_six_main{
+    position: relative;
+}
+
+.journey_six_main .line_scroll {
+    width: 100%;
+}
+
+/* end tab line */
+
+
+
+/* start policy add popup */
+
+
+.cover_policy_add_popup {
+	 width: 100%;
+	 height: 100%;
+	 background: rgba(0, 0, 0, 0.4);
+	 display: none;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 text-align: center;
+     z-index: 999;
+}
+
+ .cover_policy_add_popup .cover_policy {
+     width: 41.667vw;
+     overflow: auto;
+     padding: 30px;
+     background: white;
+     color: black;
+     position: relative;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     box-sizing: border-box;
+     border-radius:20px ;
+     -webkit-border-radius:20px ;
+     -moz-border-radius:20px ;
+     -ms-border-radius:20px ;
+     -o-border-radius:20px ;
+}
+ 
+
+
+.cover_policy .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    background: #F36222;
+    height: 40px;
+    border-radius: 50%;
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+ .cover_policy .close span {
+    cursor: pointer;
+    position: fixed;
+    width: 20px;
+    height: 3px;
+    background: #ffffff;
+}
+
+ .cover_policy .close span:nth-child(1) {
+	 transform: rotate(45deg);
+}
+
+ .cover_policy .close span:nth-child(2) {
+	 transform: rotate(135deg);
+}
+
+.cover_policy_title {
+    width: 100%;
+    text-align: left;
+}
+
+.cover_policy_title .fs-24{
+    color: #004778;
+    font-style: normal;
+    font-weight: 700;
+    width: 90%;
+}
+
+.cover_policy_title p{
+    color: #57585A;
+    font-size: 0.938vw;
+    font-weight: 400;
+    line-height: 1.354vw;
+    letter-spacing: -0.18px;
+    padding-top: 0.781vw;
+}
+
+.cover_policy_button{
+    width: 100%;
+    display: block;
+    margin-top: 1.146vw;
+}
+
+.cover_policy_button .button_next_common{
+    width: 100%;
+}
+
+.cover_policy_step_one{
+    margin-top: 1.042vw;
+}
+
+.cover_policy_step_one .family_member_select {
+    width: 65%;
+}
+
+.cover_policy_step_one .family_member_select select{
+    height: 50px;
+}
+
+.cover_policy_step_one .family_member_select::before {
+    padding: 4px;
+    top: 17px;
+}
+
+
+.cover_policy_step_two {
+    width: 100%;
+    padding-top: 1.719vw;
+}
+
+
+
+.cover_polict_radio {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    column-gap: 6.771vw;
+}
+
+
+.radio-button-container {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.198vw;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 0.938vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-button-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background: #EFEFEF;
+    border: 1px solid #B9B9B9;
+    box-shadow:0px 4px 10px rgba(87, 88, 90, 0.15);
+    transition: all 0.3s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-button-container .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	background: #f47720;
+}
+
+.radio-button-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radio-button-container input:checked ~ .checkmark{
+    border-color: #f47720;
+}
+
+
+
+
+
+
+.cover_policy_step_three {
+    display: -webkit-box;  
+    display: -ms-flexbox;    
+    display: -webkit-flex;     
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.cover_policy_step_three_left {
+    width: 60%;
+}
+
+.cover_policy_step_three_right {
+    width: 40%;
+}
+
+.cover_policy_step_three_right .family_member_select{
+    width: 100%;
+}
+
+.cover_policy_step_three_left .cover_polict_radio {
+    column-gap: 2.771vw;
+}
+
+.details_pop_edit_btn {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+/* end policy add popup */
+
+
+
+
+/* start media */
+
+@media screen and (max-width: 1536px) {
+
+    .port_policy_left p{
+        font-size: 12px;
+    }
+
+    .resent_otp {
+      font-size: 16px;
+    }
+
+    .otp_box_main .close {
+      width: 40px;
+      height: 40px;
+    }
+
+    .tooltip_journey p{
+        font-size: 12px;
+    }
+
+    .tooltip_journey h4{
+        font-size: 13px;
+    }
+
+    .checkbox_main input:checked + label {
+       border: 2px solid #004778; 
+    }
+
+    .tooltip_journey_three {
+        top: -7.208vw;
+    }
+
+    .family_member_select::before {
+      padding: 3px;
+    }
+
+}
+@media (min-width: 1280px) and (max-width: 1400px) {
+.recommended_plans_sec {
+    padding-top: 40px;
+}
+  .general_info_sec {
+    padding-bottom: 1.6vw;
+}  
+    .recommended_plans_sec .recommended_plans_inner {
+    padding-top: 20px;
+}
+    .recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .recommended_plans_box {
+    padding-top: 0.667vw;
+}
+    .best_choice_content .para_cotent p {
+    margin-top: 0.865vw;
+}
+    .health_insurance_plans {
+    gap: 1vw 2.083vw;
+}
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .input_otp_box aside input {
+      width: 4.425vw;
+      height: 4.567vw;
+    }
+
+    .otp_icon {
+      width: 8.813vw;
+    }
+
+
+.tooltip_journey {
+    width: 23.448vw;
+    padding: 1.563vw 1.823vw;
+    left: -21.625vw;
+    bottom: 4.292vw;
+}
+
+.form_title {
+    font-size: 1.45vw;
+}
+
+
+.form_help_left input {
+    height: 3.825vw;
+    padding: 0px 15px;
+    font-size: 1.238vw;
+}
+
+.journey_first .container {
+    padding-left: 3.25vw;
+    padding-right: 3.25vw;
+}
+
+.journey_part_inner {
+    justify-content: space-between;
+    column-gap: 6.604vw;
+}
+
+.port_policy_left {
+    width: 27.875vw;
+}
+
+.port_policy_left .policy_left_heading {
+    font-size: 1.338vw;
+}
+
+.port_policy_right label span {
+    padding: 0.929vw 2.708vw;
+    font-size: 1.233vw;
+}
+
+    .port_policy_left p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .button_next_common, .button_prev_common {
+        padding: 1.39vw 2.875vw;
+        font-size: 1.238vw;
+    }
+
+    .title_part {
+      font-size: 2.283vw;
+    }
+
+    .gender_svg {
+      width: 24px;
+    }
+
+    .gender_inner label span {
+       font-size: 14px;
+    }
+
+    .form_title {
+        font-size: 16px;
+    }
+
+    .gender_inner {
+       column-gap: 15px;
+    }
+
+.journey_second_part_inner {
+    column-gap: 4.604vw;
+    justify-content: space-between;
+    padding-top: 3.688vw;
+}
+
+.journey_second_right {
+    width: 26.25vw;
+}
+
+    .journey_second_left {
+        width: 61.333vw;
+    }
+
+.checkbox_main label {
+    padding: 0.769vw 0.821vw;
+}
+
+.quality_input_main {
+    column-gap: 1.181vw;
+}
+
+.checkbox_icon {
+    width: 35px;
+    height: 35px;
+}
+
+.checkbox_name {
+    font-size: 14px;
+}
+
+.quantity .minus, .quantity .plus {
+    font-size: 1.542vw;
+    width: 2.563vw;
+}
+
+.quantity .input-box {
+    font-size: 12px;
+    max-width: 2.075vw;
+}
+
+.journey_form_title {
+    font-size: 1.442vw;
+}
+
+.gender_box {
+    margin-bottom: 3.083vw;
+}
+
+.family_member_checkbox {
+    padding-top: 2.563vw;
+    column-gap: 1.954vw;
+    row-gap: 1.354vw;
+}
+
+.journey_first {
+    padding-top: 3.646vw;
+    padding-bottom: 3.646vw;
+}
+
+.three_journey_left {
+    width: 52.333vw;
+}
+
+.taking_three_journey {
+    padding-top: 5.688vw;
+    column-gap: 4.604vw;
+}
+
+.family_member_form_inner {
+    margin-top: 2.85vw;
+}
+
+.family_member_select select {
+    height: 4.325vw;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+
+.three_journey_right {
+    width: 26.292vw;
+}
+
+     .tooltip_journey_three {
+        top: -12.208vw;
+        width: 23.052vw;
+        left: -7.125vw;
+    }
+
+    .tooltip_journey_three h4 {
+       font-size: 14px;
+    }
+
+    .tooltip_journey_three p {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+.family_member_select::before {
+    right: 1.533vw;
+    top: 1.594vw;
+}
+
+.taking_four_journey {
+    padding-top: 5.688vw;
+    column-gap: 4.604vw;
+}
+
+.four_journey_left {
+    width: 56.333vw;
+}
+
+    .journey_form_title {
+        line-height: 1.3;
+    }
+
+    .medical_checkbox_name {
+      font-size: 14px;
+    }
+
+    .medical_checkbox_inner label {
+      padding: 1.233vw 1.242vw;
+    }
+
+.journey_four .tooltip_journey_three {
+    left: -15.125vw;
+    top: -3.608vw;
+}
+
+.recommended_plans_right_top h3 {
+    font-size: 1.55vw;
+}
+
+.recommended_plans_box_right ul li .get_infinite_content {
+    font-size: 12px;
+    flex: 1;
+}
+
+.recommended_plans_box_right p {
+    font-size: 10px;
+    line-height: normal;
+}
+
+.recommended_plan_data p {
+    font-size: 12px;
+}
+
+.recommended_plan_data ul li .data_recommended {
+    font-size: 12px;
+}
+
+.best_choice_content .para_cotent p {
+    margin-top: 2.865vw;
+    margin-bottom: 2.042vw;
+}
+
+.health_insurance_plans .best_plans p {
+    font-size: 14px;
+}
+
+    .best_choice_content .bottom_insurance_plans {
+        padding-top: 25px;
+        margin-top: 25px;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_center ul li {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_center .bottom_insurance_btn a {
+      font-size: 12px;
+    }
+
+.bottom_insurance_plans .bottom_insurance_left {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.recommended_plans_sec .recommended_plans_inner {
+    padding-top: 30px;
+}
+
+.recommended_plans_sec {
+    padding-top: 40px;
+}
+
+.general_info_sec {
+    padding-bottom: 3.604vw;
+}
+
+.bottom_insurance_plans .bottom_insurance_center {
+    width: 64%;
+}
+
+.bottom_insurance_plans .bottom_insurance_right {
+    width: 21.792vw;
+}
+
+.bottom_insurance_plans .bottom_insurance_right .bottom_insurance_box button {
+    padding: 1.602vw 3.375vw;
+    font-size: 14px;
+}
+
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col {
+    margin-bottom: 1.885vw;
+}
+
+.hospitalization_right_title {
+        font-size: 14px;
+}
+
+.hospitalization_right p {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.price_add_rupee {
+    font-size: 14px;
+}
+
+.price_add_sub_price {
+    font-size: 22px;
+}
+
+.price_add_year {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.add_btn {
+    font-size: 12px;
+    padding: 7px 16px;
+}
+
+.view_all_btn {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.best_choice_content .bc_right p {
+    font-size: 12px;
+}
+
+.best_choice_content .bc_row .bc_left .pratham_box {
+    font-size: 16px;
+}
+
+.best_choice_content .bc_row .bc_left .bc_discount .fs-16 {
+    font-size: 11px;
+}
+
+.journey_six_inner_main {
+    column-gap: 4.448vw;
+    justify-content: space-between;
+}
+
+.journey_six_left_main {
+    width: 60.073vw;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul {
+    padding-left: 10px;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li span {
+    font-size: 12px;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li .li_right {
+    font-size: 12px;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.general_info_sec .general_info_row .general_infor_left ul li:first-child {
+    padding-left: 0px;
+}
+
+.general_info_sec .general_info_row .general_infor_left {
+    width: 83%;
+}
+
+.general_info_sec .general_info_row .general_infor_right {
+    width: 17%;
+}
+
+.overview_title {
+    width: 100%;
+}
+
+.overview_logo_main {
+    padding-top: 2.302vw;
+    column-gap: 3.604vw;
+}
+
+.overview_logo {
+    width: 13.375vw;
+}
+
+.overview_cantent {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.sum_insured_inner {
+    padding-top: 25px;
+}
+
+.sum_insured_left {
+    font-size: 14px;
+}
+
+.sum_insured_right select {
+    height: 40px;
+    width: 100%;
+    padding: 0px 12px;
+    font-size: 14px;
+}
+
+.policy_tenure_main {
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+.policy_tenure_title {
+    font-size: 14px;
+    width: 100%;
+}
+
+.content_head {
+    font-size: 12px;
+}
+
+.card.card-body {
+    height: 55px;
+    padding: 15px 10px;
+}
+
+
+    .content_sub_price {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .content_sub_gst {
+        font-size: 10px;
+    }
+
+    .card.card-body {
+        column-gap: 10px;
+    }
+
+    .content_sub_rupee {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .discount_tenure {
+        bottom: 5px;
+        font-size: 9px;
+    }
+
+    .tenure_cantent_box ul li span {
+      width: 20px;
+    }
+
+    .tenure_cantent_box ul li .cantent_box_tenure {
+      font-size: 14px;
+    }
+
+    .premium_price_title span {
+      font-size: 12px;
+    }
+
+    .premium_price_sub {
+      font-size: 14px;
+    }
+
+    .premium_price_sub_price {
+      font-size: 20px;
+      padding-left: 2px;
+    }
+
+    .premium_price_year {
+      font-size: 10px;
+    }
+
+    .premium_price_main {
+      gap: 10px;
+    }
+
+    .final_amount .premium_price_title span {
+      font-size: 14px;
+    }
+
+    .premium_price_title p {
+      font-size: 10px;
+    }
+
+    
+    .final_amount .premium_price_rupee {
+        font-size: 20px;
+    }
+
+    .final_amount .premium_price_sub_price {
+      font-size: 30px;
+      line-height: 26px;
+    }
+
+    .final_amount .premium_price_year {
+     font-size: 16px;
+     line-height: 16px;
+    }
+
+    .journey_right_title {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+
+    .sarvah_pratham_title {
+      font-size: 14px;
+      padding-top: 15px;
+    }
+
+    .flag-discount {
+        padding: 4px 10px;
+        left: -1.719vw;
+        margin-top: 18px;
+        font-size: 12px;
+        padding-left: 1.719vw;
+    }
+
+    .policy_period_left {
+      font-size: 12px;
+    }
+
+    .policy_period_right {
+      font-size: 16px;
+    }
+
+    .policy_period_price ul li {
+      column-gap: 20px;
+      line-height: 30px;
+    }
+
+    .pilicy_title .overview_title {
+      font-size: 20px;
+    }
+
+    .pilicy_data_main {
+       padding-top: 50px;
+    }
+
+    .btn_bottom_cnt {
+     font-size: 10px;
+     line-height: normal;
+     padding-top: 12px;
+    }
+
+    .btn_buy button {
+      padding: 12px 20px;
+      font-size: 14px;
+    }
+
+    .tenure_cantent_box {
+      padding: 20px 0px;
+      margin-top: 30px;
+    }
+
+    .popup__content {
+      width: 50.25vw;
+    }
+
+    .detail_popup .popup__content {
+        width: 95%;
+        padding: 4.604vw 6vw;
+    }
+
+    .accordion {
+        max-width: 100%;
+        margin-top: 1.804vw;
+    }
+
+    .at-title .fs-32 {
+      padding: 1.802vw 1.963vw;
+      font-size: 24px;
+    }
+
+    .detail_popup .close {
+      width: 45px;
+      height: 45px;
+    }
+
+   .at-title:after {
+      top: 2.563vw;
+      right: 30.01px;
+   }
+
+    .at-tab {
+        padding: 2.563vw 1.967vw;
+        padding-top: 0;
+    }
+
+    .line_scroll span {
+      width: 3.188vw;
+      height: 1.602vw;
+      font-size: 0.981vw;
+      right: -0.885vw;
+      top: 1.242vw;
+    }
+
+
+    .cover_policy_add_popup .cover_policy {
+        width: 61.667vw;
+    }
+
+    .cover_policy_title .fs-24{
+        font-size: 18px;
+    }
+
+    .cover_policy_title p {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .cover_polict_radio .radio-button-container {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+     .cover_policy_button {
+        margin-top: 30px;
+     }
+
+     .cover_policy_step_two {
+        padding-top: 30px;
+     }
+
+     .cover_policy .close {
+        right: 9px;
+        top: 9px;
+     }
+
+    .cover_policy_step_one {
+        margin-top: 30px;
+    }
+
+.radio_check {
+    max-width: 6.427vw;
+}
+.journey_form_title {
+        line-height: 24px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+.hospitalization_left {
+    width: 13.854vw;
+}
+
+    .policy_period_price ul li {
+        line-height: 40px;
+    }
+
+.journey_part_inner {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    column-gap: 6.604vw;
+    padding-top: 5.688vw;
+}
+
+
+.journey_left {
+    width: 100%;
+}
+
+.journey_right {
+    width: 27.292vw;
+    position: relative;
+    margin-top: -25.208vw;
+}
+
+.form_help_left input {
+    height: 45px;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+
+.form_help_inner {
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 3.25vw;
+}
+
+.journey_first {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+    .port_policy_left .policy_left_heading {
+        font-size: 16px;
+    }
+
+    .port_policy_left {
+        width: 100%;
+        padding-right: 30%;
+    }
+
+.port_policy {
+    flex-wrap: wrap;
+    row-gap: 25px;
+     margin-top: 4.865vw;
+}
+
+.journey_title {
+    max-width: 68.021vw;
+}
+
+    .title_part {
+        font-size: 24px;
+    }
+
+    .port_policy_right label span {
+        padding: 10px 40px;
+        font-size: 16px;
+    }
+
+.button_next_common, .button_prev_common {
+    padding: 2.09vw 3.875vw;
+    font-size: 1.838vw;
+}
+
+    .tooltip_journey {
+        width: 43.448vw;
+        padding: 2.563vw 2.823vw;
+        left: -43.625vw;
+        bottom: 0.292vw;
+    }
+
+    .tooltip_journey h4 {
+        font-size: 16px;
+    }
+
+    .tooltip_journey p {
+        font-size: 14px;
+    }
+
+    .tooltip_journey::before{
+        width: 2.963vw;
+        height: 2.963vw;
+        position: absolute;
+        right: -2.654vw;
+        top: 2.656vw;
+    }
+
+    .port_policy_left p {
+        padding-top: 10px;
+    }
+
+    .jurney_button_common {
+       padding-top: 40px;
+    }
+
+    .journey_second_part_inner {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+
+    .journey_second_left {
+        width: 100%;
+    }
+
+    .journey_second_right {
+        width: 31.25vw;
+        margin-top: -20.208vw;
+    }
+
+    .journey_second_part_inner {
+        padding-top: 5.688vw;
+        justify-content: flex-end;
+    }
+
+    .gender_box {
+        margin-bottom: 40px;
+    }
+
+    .journey_form_title {
+        font-size: 16px;
+    }
+
+    .family_member_checkbox {
+        padding-top: 20px;
+        column-gap: 15px;
+        row-gap: 2.354vw;
+    }
+
+    .quantity {
+      width: 60px;
+    }
+
+    .quantity .minus, .quantity .plus {
+        font-size: 16px;
+        width: 3.563vw;
+    }
+
+    .taking_three_journey {
+        flex-wrap: wrap;
+    }
+
+    .three_journey_left {
+        width: 100%;
+    }
+
+    .taking_three_journey {
+        justify-content: flex-end;
+    }
+
+    .family_member_select select {
+        height: 45px;
+        padding: 0px 15px;
+        font-size: 16px;
+        padding-right: 34px;
+    }
+
+    .family_member_select::before {
+        right: 16px;
+        top: 15px;
+    }
+
+    .family_member_form_inner {
+        margin-top: 25px;
+    }
+
+    .journey_three .jurney_button_common {
+        justify-content: flex-start;
+    }
+
+    .three_journey_right {
+        width: 32.292vw;
+    }
+
+    .tooltip_journey_three {
+      top: -15.208vw;
+      width: 36.052vw;
+      left: -17.125vw;
+      padding: 2.458vw 2.25vw;
+    }
+
+    .taking_three_journey {
+        row-gap: 30px;
+    }
+
+    .tooltip_journey_three::before{
+        width: 3.163vw;
+        height: 3.163vw;
+        bottom: -2.544vw;
+    }
+
+    .taking_four_journey {
+        flex-wrap: wrap;
+    }
+
+    .four_journey_left {
+        width: 100%;
+    }
+
+    .taking_four_journey {
+        justify-content: flex-end;
+    }
+
+    .medical_checkbox_inner label {
+        padding: 1.833vw 1.442vw;
+    }
+
+    .journey_four .jurney_button_common {
+        justify-content: flex-start;
+    }
+
+    .four_journey_right {
+        width: 27.292vw;
+        position: relative;
+        margin-top: -60px;
+    }
+
+    .journey_four .tooltip_journey_three {
+      left: -27.125vw;
+      top: -1.608vw;
+    }
+
+    .checkbox_main label {
+        padding: 1.269vw 1.221vw;
+    }
+
+    .recommended_plans_sec .recommended_plans_inner {
+        flex-wrap: wrap;
+    }
+
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left {
+    width: 100%;
+}
+
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_right {
+    width: 100%;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li:nth-child(2){
+    display: none;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li:nth-child(3){
+    display: none;
+}
+
+    .general_info_sec .general_info_row .general_infor_left ul li span {
+        font-size: 18px;
+    }
+
+    .general_info_sec .general_info_row .general_infor_left ul li .li_right {
+        font-size: 18px;
+    }
+
+    .general_info_sec .general_info_row .general_infor_left ul li::before{
+        display: none;
+    }
+
+    .general_info_sec .general_info_row .general_infor_right {
+        width: 30%;
+    }
+
+    .bc_left_img {
+    width: 11.635vw;
+}
+
+    .bottom_insurance_plans .bottom_insurance_right {
+        width: 31.792vw;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_right .bottom_insurance_box button {
+        padding: 2.202vw 5.375vw;
+        font-size: 15px;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_center .bottom_insurance_btn a {
+        font-size: 14px;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_center ul li {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+
+    .recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .best_choice .fs-20 {
+      font-size: 16px;
+      font-weight: 700;
+      padding: 1.7642vw 2.083vw;
+    }
+
+    .best_choice_content .para_cotent p {
+        margin-top: 2.865vw;
+        margin-bottom: 3.042vw;
+    }
+
+    .health_insurance_plans {
+       gap: 2.563vw 2.083vw;
+    }
+
+    .best_choice_content .bc_row .bc_left .bc_discount .fs-16 {
+        font-size: 14px;
+    }
+
+    .recommended_plans_right_top h3 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .recommended_plans_box_right {
+      padding: 3.083vw;
+    }
+
+.recommended_plans_box_right ul li .get_infinite_icon {
+    width: 40px;
+    height: 40px;
+}
+
+    .recommended_plans_box_right ul li .get_infinite_content {
+        font-size: 16px;
+    }
+
+    .recommended_plans_box_right ul li {
+        gap: 20px;
+        align-items: center;
+        padding: 2.19vw 0px;
+    }
+
+    .recommended_plans_box_right p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+.recommended_plans_box_right {
+    padding: 4.083vw;
+}
+
+
+.recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .recommended_plans_box {
+    padding-left: 3.083vw;
+    padding-right: 3.083vw;
+    padding-top: 2.667vw;
+    padding-bottom: 3.813vw;
+}
+
+.stay_covered_title_main p{
+    font-size: 16px;
+}
+
+.stay_covered_title_main {
+    padding: 0 3.846vw;
+    padding-top: 25px;
+}
+
+.stay_covered_title_main p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+    .recommended_plan_data p {
+        font-size: 16px;
+    }
+
+    .recommended_plan_data ul li .data_recommended {
+        font-size: 16px;
+    }
+
+    .policy_slider_main .splide__track {
+        padding: 20px 15px !important;
+    }
+
+
+    .policy_slider_main .hospitalization_left {
+        width: 14.854vw;
+    }
+
+    .hospitalization_inner {
+      column-gap: 2.042vw;
+    }
+
+    .hospitalization_right_title {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .best_choice_content .bc_row .bc_left .bc_discount {
+      padding: 4px 2.042vw;
+    }
+
+        .hospitalization_right p {
+           font-size: 14px;
+        }
+
+.hospitalization_left {
+    width: 15.854vw;
+}
+
+.policy_slider_title {
+    margin-top: 8.208vw;
+}
+
+.recommended_plan_data {
+    margin-top: 4.604vw;
+}
+
+.recommended_plan_data ul {
+    padding-top: 2.563vw;
+}
+
+.bottom_insurance_plans .bottom_insurance_center .bottom_insurance_btn a {
+    font-size: 16px;
+}
+
+    .general_info_sec {
+        padding-bottom: 40px;
+    }
+
+    .recommended_plans_sec .common_heading .recommended_plans_heading {
+      font-size: 25px;
+    }
+
+    .recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col {
+        margin-bottom: 2.885vw;
+    }
+
+
+.journey_six_inner_main {
+    flex-wrap: wrap;
+}
+
+.journey_six_left_main {
+    width: 100%;
+}
+
+.journey_six_right_main {
+    width: 100%;
+}
+
+
+.journey_right_title{
+    display: none;
+}
+
+.sarvah_pratham_title{
+    display: none;
+}
+
+.flag-discount{
+    display: none;
+}
+
+    .overview_title {
+        font-size: 20px;
+    }
+
+    .policy_period_price ul li:last-child{
+        display: none;
+    }
+
+   .btn_bottom_cnt{
+     display: none;
+   }
+
+   .policy_period_price{
+     display: none;
+   }
+
+
+    .journey_six_right_main {
+        width: 100%;
+        padding: 0;
+        left: 0;
+        right: 0;
+        top: inherit;
+        z-index: 999;
+        position: fixed;
+        bottom: 0;
+        background: var(--new, linear-gradient(180deg, #FFF 0%, #E5E5E5 100%));
+    }
+
+   .mobile_toggle_detail h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+    .journey_six_right_main {
+        border-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border: none;
+    }
+
+    .mobile_toggle_detail {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px 8px 0px 0px;
+        background: #004778;
+        color: #fff;
+        padding: 10px 10px;
+        column-gap: 5px;
+    }
+
+    .mobile_toggle_detail span{
+        width: 30px;
+    }
+    .mobile_toggle_detail span svg{
+        width: 100%;
+    }
+
+.mobile_button_now_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+}
+
+.mobile_button_price {
+    width: 70%;
+}
+
+.mobile_button_price .premium_price_title span {
+    font-size: 18px;
+}
+
+.mobile_button_price .premium_price_title p {
+    font-size: 12px;
+}
+
+.mobile_button_price .premium_price_sub {
+    font-size: 20px;
+    color: #004778;
+    padding-top: 5px;
+}
+
+.mobile_button_price .premium_price_sub_price {
+    font-size: 40px;
+    padding-left: 3px;
+    line-height: 40px;
+}
+
+.mobile_button_price .premium_price_year {
+    font-size: 16px;
+}
+
+
+.btn_buy {
+    flex: 1;
+}
+ 
+    .btn_buy button {
+        padding: 18px 20px;
+        font-size: 16px;
+    }
+
+.policy_period_price {
+    width: 95%;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(87, 88, 90, 0.20);
+    margin-bottom: 6px;
+    margin: 0 20px;
+}
+
+    .policy_period_left {
+        font-size: 16px;
+    }
+
+    .policy_period_right {
+        font-size: 18px;
+    }
+
+.policy_period_right span {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 3px;
+}
+
+    .policy_period_price.active{
+        display: block;
+    }
+
+    .mobile_toggle_detail.active span{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+
+.popup__content {
+    width: 54.25vw;
+}
+
+.otp_icon {
+    width: 9.813vw;
+}
+
+.otp_title_box {
+    padding-top: 2.146vw;
+}
+
+.otp_title_box p {
+    font-size: 14px;
+}
+
+.otp_title_box .otp_title {
+        font-size: 20px;
+    }
+
+.sent_otp_box {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.otp_box_main .close {
+    width: 45px;
+    height: 45px;
+}
+
+.input_otp_box aside input {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.otp_title_box p {
+    padding-top: 5px;
+}
+
+.sent_otp_box {
+    padding: 0px 3.125vw;
+    padding-top: 3.563vw;
+}
+
+.resent_otp {
+    padding-top: 3.083vw;
+    font-size: 16px;
+    margin-bottom: 3.563vw;
+}
+
+.general_info_popup .form_help_inner {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4.604vw;
+}
+
+    .at-title .fs-32 {
+        padding: 2.802vw 1.963vw;
+        font-size: 20px;
+    }
+
+    .at-tab {
+        padding: 3.563vw 1.967vw;
+        padding-top: 0;
+    }
+
+    .at-title:after {
+        top: 3.563vw;
+        right: 30.01px;
+        padding: 0.617vw;
+    }
+
+    .detail_popup_title {
+        padding: 0 50px;
+    }
+
+    .detail_popup_title .title_part {
+        margin-bottom: 5px;
+    }
+
+    .line_part {
+      height: 0.721vw;
+    }
+
+    .line_scroll span {
+        width: 4.088vw;
+        height: 2.002vw;
+        font-size: 1.381vw;
+        top: 1.442vw;
+    }
+
+    .line_scroll span::before {
+        width: 1.429vw;
+        height: 1.477vw;
+        top: -1.173vw;
+    }
+
+
+    .cover_policy_add_popup .cover_policy {
+        width: 87.667vw;
+    }
+.radio_check {
+    max-width: 8.427vw;
+}
+.journey_form_title {
+        line-height: normal;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .pilicy_data_left {
+       padding: 20px 22px;
+    }
+        
+    .hospitalization_inner {
+        column-gap: 12px;
+    }
+
+    .hospitalization_left {
+        width: 24.854vw;
+    }
+
+    .hospitalization_right p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .price_add_rupee {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .price_add_sub_price {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    .prce_add_inner {
+        padding-top: 18px;
+    }
+
+    .add_btn.fill_btn {
+        padding: 14px 24px;
+    }
+
+    .view_all_btn {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    .price_add_year {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .view_all_btn_main {
+        padding-top: 38px;
+    }
+
+    .pilicy_data_inner {
+        padding-top: 28px;
+    }
+
+    .pilicy_title .overview_title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .form_help_left {
+        width: 100%;
+    }
+
+    .title_part {
+        font-size: 20px;
+    }
+
+        .journey_title {
+        max-width: 100%;
+    }
+
+    .form_help_inner {
+        row-gap: 12px;
+        margin-top: 18px;
+    }
+
+    .form_help_left input {
+        height: 44px;
+        padding: 0px 15px;
+        font-size: 16px;
+        border-color: #57585A;
+        border-radius: 5px;
+    }
+
+    .port_policy {
+        row-gap: 18px;
+        margin-top: 33px;
+    }
+
+    .port_policy_left {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .port_policy_left .policy_left_heading {
+        font-size: 14px;
+    }
+
+    .port_policy_left p {
+        font-size: 12px;
+    }
+
+    .port_policy_right label span {
+        padding: 10px 37px;
+        font-size: 14px;
+    }
+
+    .button_next_common, .button_prev_common {
+        padding: 12px 20px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+
+    .journey_right {
+        width: 38.292vw;
+        position: relative;
+        margin-top: -21.208vw;
+        right: -9px;
+    }
+
+  .tooltip_journey {
+        width: 50.448vw;
+        padding: 15px;
+        left: -51.625vw;
+        bottom: 9.292vw;
+        border-radius: 10px;
+    }
+
+        .tooltip_journey::before {
+         width: 3.963vw;
+         height: 3.963vw;
+         position: absolute;
+         right: -3.354vw;
+        }
+
+    .tooltip_journey h4 {
+        font-size: 12px;
+    }
+
+    .tooltip_journey p {
+        font-size: 10px;
+        line-height: 14px;
+        padding-top: 3px;
+    }
+
+.health_insuranceis_sec .health_insuranceis_inner {
+    gap: 6.71875vw;
+    flex-wrap: wrap;
+}
+
+.health_insuranceis_left {
+    width: 100%;
+}
+
+.health_insuranceis_sec .health_insuranceis_img {
+    width: 90%;
+    float: inherit;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.health_insuranceis_sec .common_heading {
+    text-align: center;
+}
+
+.health_insuranceis_sec .health_insuranceis_left .fs-56 {
+    font-size: 20px;
+}
+
+.health_insuranceis_sec .health_insuranceis_right ul li a .fs-20 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #57585A;
+}
+
+.health_insuranceis_right {
+    padding-top: 20px;
+}
+
+.health_insuranceis_sec .health_insuranceis_right ul li a {
+    gap: 16px;
+}
+
+.health_insuranceis_sec .health_insuranceis_right ul li a svg{
+    margin-top: 5px;
+}
+
+.health_insuranceis_sec .health_insuranceis_right ul li a {
+    padding-top: 11px;
+}
+
+.health_insuranceis_sec {
+    padding-top: 35px;
+}
+
+    .popup__content {
+        width: 94%;
+        padding: 30px;
+    }
+
+.otp_icon {
+    width: 25.813vw;
+}
+
+    .otp_title_box {
+        padding-top: 4.146vw;
+    }
+
+    .sent_otp_box {
+      padding: 0px 3.125vw;
+      padding-top: 6.563vw;
+    }  
+
+    .resent_otp {
+        padding-top: 25px;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+
+    .input_otp_box aside {
+        column-gap: 3.002vw;
+    }
+
+    .otp_box_main .close {
+        width: 40px;
+        height: 40px;
+    }
+
+.checkbox_main {
+    width: 48.2%;
+}
+
+    .family_member_checkbox {
+        padding-top: 20px;
+        column-gap: 10px;
+        row-gap: 11px;
+        width: 100%;
+    }
+
+    .checkbox_icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .checkbox_main label {
+        padding: 7px 6px;
+    }
+
+   .quantity .minus, .quantity .plus {
+    font-size: 14px;
+    width: 4.563vw;
+}
+
+    .quantity .input-box {
+        font-size: 16px;
+        max-width: 4.075vw;
+    }
+
+    .checkbox_main label {
+        padding: 9px 9px;
+    }
+
+    .journey_form_title {
+        font-size: 16px;
+        padding: 0 50px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .gender_box {
+        margin-bottom: 60px;
+    }
+
+.journey_second .journey_title {
+    max-width: 98%;
+}
+
+.gender_box {
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 15px;
+    }
+
+        .journey_second_part_inner {
+            padding-top: 40px;
+        }
+
+        .radio_check {
+             padding: 2.781vw 2.042vw;
+        }
+
+       
+
+    .journey_second .jurney_button_common {
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    .journey_three .jurney_button_common {
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    .journey_four .jurney_button_common {
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    .journey_second_right{
+        display: none;
+    }
+
+   .family_member_select {
+     width: 100%;
+   }
+
+    .family_member_form_inner {
+        margin-top: 30px;
+        row-gap: 11px;
+    }
+
+.journey_three .journey_form_title {
+    text-align: center;
+    padding: 0;
+}
+
+
+    .taking_three_journey {
+        padding-top: 40px;
+    }
+
+    .journey_three .title_part {
+        padding: 0 60px;
+    }
+
+    .family_member_select select {
+        height: 47px;
+        padding: 0px 15px;
+        font-size: 14px;
+        padding-right: 34px;
+    }
+
+    .family_member_select::before {
+        padding: 5px;
+    }
+
+    .port_policy_left p {
+        font-size: 16px;
+    }
+
+    .three_journey_right {
+        width: 53.292vw;
+    }
+
+   .tooltip_journey_three {
+        top: 29.792vw;
+        width: 49.052vw;
+        left: -38.125vw;
+        padding: 3.458vw 3.25vw;
+        border-radius: 10px;
+    }
+
+    .tooltip_journey_three h4{
+        font-size: 12px;
+    }
+
+    .tooltip_journey_three p{
+        font-size: 10px;
+        line-height: 14px;
+        padding-top: 3px;
+    }
+
+    
+    .tooltip_journey_three::before{
+       background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="42" height="47" viewBox="0 0 42 47" fill="none"><path d="M42 -1.83588e-06C34.5333 32.2286 10.8889 44.7619 0 47L-2.05444e-06 0C3.73333 18.4163 29.5556 7.67347 42 -1.83588e-06Z" fill="%23DEDEDE"/></svg>');
+       width: 3.963vw;
+        height: 3.963vw;
+        position: absolute;
+        right: -3.354vw;
+        bottom: inherit;
+        top: 20px;
+        background-size: 100% 100%;
+    }
+
+    .taking_three_journey {
+        row-gap: 18px;
+    }
+
+    .journey_form_title {
+        line-height: 24px;
+    }
+
+.medical_checkbox_inner {
+    width: 48%;
+}
+
+.medical_checkbox_inner label span {
+    width: 6px;
+    height: 6px;
+}
+
+    .medical_checkbox_inner label {
+        padding: 15px 10px;
+    }
+
+.medical_checkbox_main {
+    padding-top: 20px;
+}
+
+    .taking_four_journey {
+        padding-top: 35px;
+    }
+
+       .four_journey_right {
+        width: 53.292vw;
+        position: relative;
+        margin-top: 8px;
+        right: -6px;
+    }
+
+.journey_four .tooltip_journey_three::before {
+    right: -4.354vw;
+    width: 5.963vw;
+    height: 5.963vw;
+}
+
+.journey_four .tooltip_journey_three {
+    left: -37.125vw;
+    top: 5.392vw;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li span{
+    display: none;
+}
+
+    .general_info_sec .general_info_row .general_infor_left ul li .li_right {
+        font-size: 12px;
+    }
+
+    .general_info_sec .general_info_row .general_infor_right {
+        width: 48%;
+    }
+
+    .general_info_sec .general_info_row {
+    border-radius: 8px;
+    padding: 8px;
+}
+
+    .general_info_sec {
+        padding-bottom: 30px;
+    }
+
+    .bc_left_img {
+        width: 84px;
+    }
+
+.best_choice_content .bc_row .bc_left {
+    flex-wrap: wrap;
+}
+
+.best_choice_content .bc_row {
+    flex-wrap: wrap;
+}
+
+.best_choice_content .bc_row .bc_left .pratham_box {
+        font-size: 22px;
+}
+
+    .recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .best_choice .fs-20 {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 9px 25px;
+    }
+
+    .recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col {
+      border-radius: 8px;
+    }
+
+
+    .recommended_plans_sec .recommended_plans_inner .recommended_plans_left .recommended_plans_col .recommended_plans_box {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 16px;
+        padding-bottom: 20px;
+    }
+
+    .general_info_sec .general_info_row .general_infor_left ul {
+        padding-left: 0;
+    }
+
+    .best_choice_content .bc_row .bc_left .bc_discount .fs-16 {
+        font-size: 12px;
+    }
+
+    .best_choice_content .bc_row .bc_left .bc_discount {
+        padding: 0px 3.042vw;
+    }
+
+.best_choice_content .bc_row .bc_left {
+    gap: 0px 3px;
+}
+
+    .best_choice_content .bc_row {
+        flex-wrap: wrap;
+        row-gap: 12px;
+    }
+
+    .best_choice_content .bc_row .fs-32 {
+        font-size: 20px;
+    }
+
+.best_choice_content .bc_right .fs-48 {
+    font-size: 32px;
+}
+
+.best_choice_content .bc_right .fs-20{
+    font-size: 14px;
+}
+
+    .best_choice_content .bc_right p {
+        font-size: 14px;
+    }
+
+    .best_choice_content .para_cotent p {
+        margin-top: 2.865vw;
+        margin-bottom: 4.042vw;
+        font-size: 12px;
+    }
+
+    .health_insurance_plans .best_plans p {
+        font-size: 12px;
+        flex: 1;
+    }
+
+    .health_insurance_plans .best_plans .tick_icon {
+    height: 20px;
+    width: 20px;
+}
+
+.best_choice_content .bottom_insurance_plans {
+    border-top: solid 1px #57585A30;
+}
+
+.bottom_insurance_plans .bottom_insurance_left .bottom_insurance_content {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.bottom_insurance_plans .bottom_insurance_center ul {
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.bottom_insurance_plans .bottom_insurance_center {
+        width: 100%;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_center ul li {
+        padding: 7px 12px;
+        font-size: 13px;
+    }
+
+    .best_choice_content .bottom_insurance_plans {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_right {
+        width: 100%;
+    }
+
+    .bottom_insurance_plans .bottom_insurance_right .bottom_insurance_box button {
+        padding: 12px 24px;
+        font-size: 12px;
+        width: 100%;
+        margin-top: 15px;
+        border-radius: 6px;
+    }
+
+    .stay_covered_box {
+      padding: 18px 24px;
+    }
+
+
+
+.stay_covered_title_main .fs-24 {
+    line-height: 26px;
+    font-size: 18px;
+}
+
+
+    .stay_covered_title_main {
+        padding: 0;
+        padding-top: 25px;
+    }
+
+    .recommended_plan_data {
+        margin-top: 25px;
+    }
+
+    .recommended_plan_data p {
+        font-size: 14px;
+    }
+
+    .recommended_plan_data ul li .data_recommended {
+        font-size: 14px;
+    }
+
+    .policy_slider_title {
+        margin-top: 60px;
+    }
+
+    .policy_slider_main .splide__track {
+        padding: 20px 0px !important;
+    }
+
+    .recommended_plan_data ul {
+        padding-top: 20px;
+    }
+
+
+
+.policy_slider_main .hospitalization_inner {
+    flex-wrap: wrap;
+}
+
+.policy_slider_main .hospitalization_right {
+    flex: inherit;
+    width: 100%;
+}
+
+.policy_slider_main .pilicy_data_left {
+    padding: 22px 28px;
+}
+
+.policy_slider_main .hospitalization_right_title {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 22px;
+}
+
+    .policy_slider_main .hospitalization_right p {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 16px;
+        line-height: 18px;
+    }
+
+    .policy_slider_main .hospitalization_left {
+        width: 162px;
+        margin: 0 auto;
+    }
+
+    .policy_slider_main .splide__track {
+        overflow: visible;
+    }
+
+.policy_slider_title .fs-28 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.general_info_sec .general_info_row .general_infor_left ul li:first-child{
+    padding-right: 0;
+}
+
+    .general_info_sec .general_info_row .general_infor_right {
+        width: 57%;
+    }
+
+    .recommended_plans_box_right ul li .get_infinite_content {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .recommended_plans_box_right ul li {
+        gap: 14px;
+        padding: 15px 0px;
+    }
+
+    .recommended_plans_box_right {
+        padding: 30px 25px;
+    }
+
+    .recommended_plans_box_right p {
+        font-size: 12px;
+    }
+
+
+    .overview_box_main {
+        border-radius: 8px;
+        padding: 20px 20px;
+    }
+
+    .tenure_cantent_box ul li {
+      column-gap: 1.833vw;
+    }
+
+    .journey_six_main .general_info_sec {
+      padding-top: 23px;
+    }
+    
+    .recommended_plans_sec {
+        padding-top: 40px;
+    }
+
+    .overview_logo_main {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .overview_cantent {
+        font-size: 14px;
+        line-height: 18px;
+        flex: inherit;
+        width: 100%;
+    }
+
+    .overview_logo {
+        width: 125px;
+    }
+
+.sum_insured_right {
+    max-width: 157px;
+}
+
+    .sum_insured_inner {
+        padding-top: 20px;
+        justify-content: space-between;
+    }
+
+    .sum_insured_right select {
+        height: 48px;
+        width: 100%;
+        padding: 0px 12px;
+        font-size: 13px;
+    }
+
+
+    .sum_insured_right::before {
+      border-width: 0 2px 2px 0;
+      padding: 3px;
+      right: 14px;
+      top: 18px;
+    }
+
+.policy_tenure_inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.policy_tenure_left {
+    width: 210px;
+}
+
+.premium_price_main{
+    display: none;
+}
+
+    .tenure_cantent_box {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+.pilicy_data_inner {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+}
+
+.add_btn {
+        font-size: 16px;
+        padding: 11px 24px;
+    }
+
+
+
+
+
+
+
+    .mobile_toggle_detail h3 {
+        font-size: 12px;
+    }
+
+    .mobile_button_price .premium_price_title span {
+        font-size: 14px;
+    }
+
+    .mobile_button_price .premium_price_title p {
+        font-size: 10px;
+    }
+
+    .mobile_button_price .premium_price_sub_price {
+        font-size: 34px;
+        padding-left: 3px;
+        line-height: 36px;
+    }
+
+    .mobile_button_price .premium_price_year {
+        font-size: 14px;
+    }
+
+    .mobile_button_price {
+        width: 60%;
+    }
+
+        .mobile_button_now_inner {
+          padding: 10px 16px;
+        }
+
+    .policy_period_price {
+        width: 95%;
+        margin: 0 10px;
+    }
+
+    .policy_period_left {
+        font-size: 14px;
+    }
+
+    .policy_period_right {
+        font-size: 16px;
+    }
+
+    .policy_period_right span {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+
+    .detail_popup_title {
+        padding: 0 20px;
+    }
+
+     .detail_popup_title{
+        font-size: 14px;
+     }
+
+    .detail_popup .popup__content {
+        overflow: visible;
+    }
+
+    .detail_popup .close {
+        width: 40px;
+        height: 40px;
+        right: -7px;
+        top: -7px;
+    }
+
+    .detail_popup .popup__content {
+        padding: 7.604vw 5vw;
+    }
+
+   .at-title .fs-32 {
+      padding: 16px 1.963vw;
+      font-size: 14px;
+    }
+
+        .general_info_popup .form_help_inner {
+           grid-template-columns: repeat(1, 1fr);
+        }
+
+    .general_info_popup .form_help_left input {
+        font-size: 14px;
+    }
+
+    .at-title:after {
+        top: 4.363vw;
+        right: 22.01px;
+        padding: 1.317vw;
+    }
+
+    .general_info_checkbox .medical_checkbox_main .medical_checkbox_inner {
+        width: 47.6%;
+    }
+
+.general_info_checkbox .medical_checkbox_main .medical_checkbox_name {
+        font-size: 12px;
+}
+
+
+
+    .general_info_checkbox .medical_checkbox_main .medical_checkbox_inner label {
+        padding: 15px 10px;
+        column-gap: 8px;
+    }
+
+
+    .accordion {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+
+    .journey_main {
+       overflow: hidden;
+    }
+
+    .line_part {
+        height: 6px;
+    }
+
+    .line_scroll span {
+      width: 9.088vw;
+      height: 5.002vw;
+      font-size: 12px;
+      top: 3.542vw;
+    }
+
+    .line_scroll span::before {
+        width: 10px;
+        height: 10px;
+        top: -8px;
+    }
+
+    .line_scroll {
+      width: 6%;
+    }
+
+    .line_scroll span {
+        right: -16px;
+    }
+
+    .cover_policy_title p {
+        padding-top: 15px;
+    }
+
+.cover_policy_step_one .family_member_select {
+    width: 100%;
+}
+
+.cover_polict_radio {
+    width: 100%;
+}
+
+.cover_policy_step_three {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.cover_policy_step_three_left {
+    width: 100%;
+}
+
+.cover_policy_step_three_right {
+    width: 100%;
+}
+
+.cover_policy_step_four .medical_checkbox_inner {
+    width: 100%;
+}
+
+    .cover_policy_button .button_next_common, .cover_policy_button .button_prev_common {
+        padding: 16px 20px;
+        font-size: 14px;
+    }
+
+
+.cover_polict_radio {
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+    .cover_policy_add_popup .cover_policy {
+        width: 94%;
+    }
+    
+    .journey_four .journey_form_title {
+    line-height: 24px;
+}
+.gender_inner .radio_check {
+    padding: 6px;
+    max-width: 67.67px;
+    height: 63.689px;
+}
+
+.gender_box .gender_title {
+    width: 100%;
+}
+}
+
+/* end media */
